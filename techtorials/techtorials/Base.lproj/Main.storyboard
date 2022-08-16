@@ -234,14 +234,14 @@
         <scene sceneID="F98-SS-Sar">
             <objects>
                 <viewController id="guP-G0-BtQ" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ttK-MX-9xE">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="ttK-MX-9xE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Df5-Wr-gdh">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Df5-Wr-gdh">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LgL-0I-swa">
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LgL-0I-swa">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ALL COURSES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fO6-sN-gKl">
@@ -389,7 +389,7 @@
                                     <color key="baseForegroundColor" red="0.015686275440000001" green="0.0" blue="0.36470589040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="jGm-k5-9VC" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="P0G-g8-aqq"/>
+                                    <segue destination="vJa-LE-a99" kind="presentation" modalPresentationStyle="fullScreen" id="DNr-VK-4QS"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-15 at 1.19.01 PM" translatesAutoresizingMaskIntoConstraints="NO" id="rLY-wN-YUT">
@@ -412,6 +412,42 @@
                                     <segue destination="ruL-Uz-hwC" kind="presentation" modalPresentationStyle="fullScreen" id="hqT-F4-reb"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gxE-Jx-D18">
+                                <rect key="frame" x="28" y="609" width="360" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Chrome Browser Training →">
+                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="19"/>
+                                    <color key="baseForegroundColor" red="0.015686275440000001" green="0.0" blue="0.36470589040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="url1Btn:" destination="2eZ-Fi-qg6" eventType="touchUpInside" id="vNh-EX-xsP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jQH-0X-N2g">
+                                <rect key="frame" x="28" y="721" width="360" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="YouTube Tutorial 2 →">
+                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="19"/>
+                                    <color key="baseForegroundColor" red="0.015686275440000001" green="0.0" blue="0.36470589040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="url3Btn:" destination="2eZ-Fi-qg6" eventType="touchUpInside" id="Wr2-ib-Tm7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OqQ-bE-UC2">
+                                <rect key="frame" x="28" y="663" width="360" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="YouTube Tutorial 1 →">
+                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="19"/>
+                                    <color key="baseForegroundColor" red="0.015686275440000001" green="0.0" blue="0.36470589040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="url2Btn:" destination="2eZ-Fi-qg6" eventType="touchUpInside" id="TQp-hJ-rq3"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ffp-Gj-ArU"/>
                         <color key="backgroundColor" red="0.50588235290000005" green="0.56862745100000001" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -422,60 +458,66 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KOu-jZ-hTg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="767" y="1075"/>
+            <point key="canvasLocation" x="766.66666666666674" y="1074.1071428571429"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="Zj0-rN-YW2">
+        <scene sceneID="Lyc-rI-NnJ">
             <objects>
-                <viewController id="jGm-k5-9VC" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="PD7-gP-Kdd">
+                <viewController id="vJa-LE-a99" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="g0h-eU-hDx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dUs-M9-Wxm">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UfA-fd-P50">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3oD-Es-1GK">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VL2-dV-5xL">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Quiz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fJR-8y-WJG">
-                                                <rect key="frame" x="170" y="52" width="75" height="46"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Top" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SLx-us-8uH">
+                                                <rect key="frame" x="183" y="75" width="48" height="36"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bottom" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UNf-wA-5mZ">
+                                                <rect key="frame" x="169" y="1929" width="76" height="29"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                         <color key="backgroundColor" red="0.50588238240000005" green="0.56862747670000002" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="1500" id="veI-W2-3lg"/>
+                                            <constraint firstAttribute="height" constant="2000" id="Oqx-lH-0rg"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="3oD-Es-1GK" secondAttribute="bottom" id="3id-wj-Rbw"/>
-                                    <constraint firstAttribute="trailing" secondItem="3oD-Es-1GK" secondAttribute="trailing" id="6wa-wf-unK"/>
-                                    <constraint firstItem="3oD-Es-1GK" firstAttribute="leading" secondItem="dUs-M9-Wxm" secondAttribute="leading" id="Zpn-4t-uPY"/>
-                                    <constraint firstItem="3oD-Es-1GK" firstAttribute="top" secondItem="dUs-M9-Wxm" secondAttribute="top" id="aG6-cg-CMV"/>
+                                    <constraint firstItem="VL2-dV-5xL" firstAttribute="leading" secondItem="UfA-fd-P50" secondAttribute="leading" id="8EI-dl-Vun"/>
+                                    <constraint firstAttribute="bottom" secondItem="VL2-dV-5xL" secondAttribute="bottom" id="Hdf-HJ-NeW"/>
+                                    <constraint firstItem="VL2-dV-5xL" firstAttribute="top" secondItem="UfA-fd-P50" secondAttribute="top" id="NrW-ZM-jW1"/>
+                                    <constraint firstAttribute="trailing" secondItem="VL2-dV-5xL" secondAttribute="trailing" id="Ty4-SN-gaX"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="QpX-Ze-fDK"/>
+                        <viewLayoutGuide key="safeArea" id="Cco-LU-nBg"/>
                         <color key="backgroundColor" red="0.50588238240000005" green="0.56862747670000002" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="3oD-Es-1GK" firstAttribute="width" secondItem="PD7-gP-Kdd" secondAttribute="width" id="1iQ-f6-mvu"/>
-                            <constraint firstAttribute="bottom" secondItem="dUs-M9-Wxm" secondAttribute="bottom" id="H1e-Wz-lsY"/>
-                            <constraint firstItem="dUs-M9-Wxm" firstAttribute="top" secondItem="PD7-gP-Kdd" secondAttribute="top" id="X9s-qA-tWx"/>
-                            <constraint firstItem="dUs-M9-Wxm" firstAttribute="trailing" secondItem="QpX-Ze-fDK" secondAttribute="trailing" id="gVZ-VX-RBL"/>
-                            <constraint firstItem="dUs-M9-Wxm" firstAttribute="leading" secondItem="QpX-Ze-fDK" secondAttribute="leading" id="vvq-oF-z4A"/>
-                            <constraint firstItem="3oD-Es-1GK" firstAttribute="height" secondItem="PD7-gP-Kdd" secondAttribute="height" multiplier="1.67411" id="zaM-hE-fKh"/>
+                            <constraint firstAttribute="bottom" secondItem="UfA-fd-P50" secondAttribute="bottom" id="6bR-mN-sTb"/>
+                            <constraint firstItem="UfA-fd-P50" firstAttribute="trailing" secondItem="Cco-LU-nBg" secondAttribute="trailing" id="BVD-o7-d8s"/>
+                            <constraint firstItem="UfA-fd-P50" firstAttribute="top" secondItem="g0h-eU-hDx" secondAttribute="top" id="Htv-fc-4Zp"/>
+                            <constraint firstItem="VL2-dV-5xL" firstAttribute="height" secondItem="g0h-eU-hDx" secondAttribute="height" multiplier="2.23214" id="cPg-VF-Sbb"/>
+                            <constraint firstItem="VL2-dV-5xL" firstAttribute="width" secondItem="g0h-eU-hDx" secondAttribute="width" id="gUn-Tx-3Cz"/>
+                            <constraint firstItem="UfA-fd-P50" firstAttribute="leading" secondItem="Cco-LU-nBg" secondAttribute="leading" id="pxy-i0-nB0"/>
                         </constraints>
                     </view>
-                    <size key="freeformSize" width="414" height="896"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="JPn-hD-5dA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x84-xM-dbq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="766.66666666666674" y="1869.6428571428571"/>
+            <point key="canvasLocation" x="766.66666666666674" y="1787.2767857142856"/>
         </scene>
         <!--Google Docs View Controller-->
         <scene sceneID="2EF-Za-5dq">
@@ -549,6 +591,42 @@
                                 <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
                                     <segue destination="ruL-Uz-hwC" kind="presentation" modalPresentationStyle="fullScreen" id="ttn-bg-Lia"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MYR-Oj-ihX">
+                                <rect key="frame" x="27" y="605" width="360" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Google Docs Training →">
+                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="19"/>
+                                    <color key="baseForegroundColor" red="0.015686275440000001" green="0.0" blue="0.36470589040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="url1Btn:" destination="2eZ-Fi-qg6" eventType="touchUpInside" id="mhS-0C-qyL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gQi-fd-nDA">
+                                <rect key="frame" x="27" y="715" width="360" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="YouTube Tutorial →">
+                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="19"/>
+                                    <color key="baseForegroundColor" red="0.015686275440000001" green="0.0" blue="0.36470589040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="url3Btn:" destination="2eZ-Fi-qg6" eventType="touchUpInside" id="uqT-mn-hQ8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C8Q-p6-HTI">
+                                <rect key="frame" x="27" y="659" width="360" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Intro to Google Docs →">
+                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="19"/>
+                                    <color key="baseForegroundColor" red="0.015686275440000001" green="0.0" blue="0.36470589040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="url2Btn:" destination="2eZ-Fi-qg6" eventType="touchUpInside" id="AsR-Dh-LZ3"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -637,6 +715,42 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pLT-pK-NOC">
+                                <rect key="frame" x="28" y="602" width="360" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Google Docs Training →">
+                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="19"/>
+                                    <color key="baseForegroundColor" red="0.015686275440000001" green="0.0" blue="0.36470589040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="url1Btn:" destination="2eZ-Fi-qg6" eventType="touchUpInside" id="3iJ-KO-prJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VDm-xA-nCH">
+                                <rect key="frame" x="28" y="712" width="360" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="YouTube Tutorial →">
+                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="19"/>
+                                    <color key="baseForegroundColor" red="0.015686275440000001" green="0.0" blue="0.36470589040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="url3Btn:" destination="2eZ-Fi-qg6" eventType="touchUpInside" id="fay-Ae-5s6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vCl-fR-sQP">
+                                <rect key="frame" x="28" y="656" width="360" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Google Sheets Tutorial →">
+                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="19"/>
+                                    <color key="baseForegroundColor" red="0.015686275440000001" green="0.0" blue="0.36470589040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="url2Btn:" destination="2eZ-Fi-qg6" eventType="touchUpInside" id="YLc-eM-DdL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="mJf-lK-w4Z"/>
                         <color key="backgroundColor" red="0.50588238240000005" green="0.56862747670000002" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -723,6 +837,42 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mEf-Aa-7mV">
+                                <rect key="frame" x="28" y="600" width="360" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Google Calendar Training →">
+                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="19"/>
+                                    <color key="baseForegroundColor" red="0.015686275440000001" green="0.0" blue="0.36470589040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="url1Btn:" destination="2eZ-Fi-qg6" eventType="touchUpInside" id="v7V-wG-5C5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tbQ-Q9-hpQ">
+                                <rect key="frame" x="28" y="712" width="360" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="YouTube Tutorial →">
+                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="19"/>
+                                    <color key="baseForegroundColor" red="0.015686275440000001" green="0.0" blue="0.36470589040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="url3Btn:" destination="2eZ-Fi-qg6" eventType="touchUpInside" id="gyU-gx-2kw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yM2-jj-gas">
+                                <rect key="frame" x="28" y="656" width="360" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="How to Use Google Calendar →">
+                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="19"/>
+                                    <color key="baseForegroundColor" red="0.015686275440000001" green="0.0" blue="0.36470589040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="url2Btn:" destination="2eZ-Fi-qg6" eventType="touchUpInside" id="ssw-3O-Dij"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="wMx-IF-DkR"/>
                         <color key="backgroundColor" red="0.50588238240000005" green="0.56862747670000002" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
