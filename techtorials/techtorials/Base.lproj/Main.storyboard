@@ -5,7 +5,6 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -136,7 +135,7 @@
                                     <color key="baseBackgroundColor" red="0.7843137255" green="0.80784313730000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="Vqh-er-zCm" kind="presentation" modalPresentationStyle="overFullScreen" id="o2a-4p-zco"/>
+                                    <segue destination="guP-G0-BtQ" kind="presentation" modalPresentationStyle="fullScreen" id="PHU-ha-XwG"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="____________________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WyA-q8-N7R">
@@ -229,7 +228,112 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k3l-km-buZ" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="768" y="71"/>
+            <point key="canvasLocation" x="1516" y="71"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="F98-SS-Sar">
+            <objects>
+                <viewController id="guP-G0-BtQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ttK-MX-9xE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Df5-Wr-gdh">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LgL-0I-swa">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ALL COURSES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fO6-sN-gKl">
+                                                <rect key="frame" x="109" y="52" width="197" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="29"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nXu-Ul-o9u">
+                                                <rect key="frame" x="20" y="93" width="374" height="43"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Web Browser">
+                                                    <fontDescription key="titleFontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="24"/>
+                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="baseBackgroundColor" red="0.7843137255" green="0.80784313730000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="2eZ-Fi-qg6" kind="presentation" modalPresentationStyle="fullScreen" id="aSa-Al-AoB"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mB7-O6-qDA">
+                                                <rect key="frame" x="20" y="144" width="374" height="43"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Google Docs">
+                                                    <fontDescription key="titleFontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="24"/>
+                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="baseBackgroundColor" red="0.7843137255" green="0.80784313730000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="npP-Qi-1wk" kind="presentation" modalPresentationStyle="fullScreen" id="6Eb-Xk-1WY"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BhC-Ec-vNm">
+                                                <rect key="frame" x="20" y="195" width="374" height="43"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Google Sheets">
+                                                    <fontDescription key="titleFontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="24"/>
+                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="baseBackgroundColor" red="0.7843137255" green="0.80784313730000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="Ii3-Cu-uM5" kind="presentation" modalPresentationStyle="fullScreen" id="fvj-5e-xzO"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jvi-sa-lRg">
+                                                <rect key="frame" x="20" y="246" width="374" height="43"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Google Calendar">
+                                                    <fontDescription key="titleFontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="24"/>
+                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="baseBackgroundColor" red="0.7843137255" green="0.80784313730000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="pE7-Aa-qZl" kind="presentation" modalPresentationStyle="fullScreen" id="He4-mN-0Vi"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.015686275440000001" green="0.0" blue="0.36470589040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1500" id="fTR-mr-zWG" userLabel="height = 3000"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="LgL-0I-swa" secondAttribute="bottom" id="2vN-bL-BxW"/>
+                                    <constraint firstAttribute="trailing" secondItem="LgL-0I-swa" secondAttribute="trailing" id="Msh-SX-7lo"/>
+                                    <constraint firstItem="LgL-0I-swa" firstAttribute="top" secondItem="Df5-Wr-gdh" secondAttribute="top" id="QIp-9f-Dzf"/>
+                                    <constraint firstItem="LgL-0I-swa" firstAttribute="leading" secondItem="Df5-Wr-gdh" secondAttribute="leading" id="c7j-wm-oIz"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="OET-7s-G7v"/>
+                        <color key="backgroundColor" red="0.015686275440000001" green="0.0" blue="0.36470589040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="LgL-0I-swa" firstAttribute="height" secondItem="ttK-MX-9xE" secondAttribute="height" multiplier="1.67411" id="AdK-nB-7SO"/>
+                            <constraint firstAttribute="bottom" secondItem="Df5-Wr-gdh" secondAttribute="bottom" id="Vh4-iX-q8h"/>
+                            <constraint firstItem="Df5-Wr-gdh" firstAttribute="top" secondItem="ttK-MX-9xE" secondAttribute="top" id="YW9-mR-4sB"/>
+                            <constraint firstItem="LgL-0I-swa" firstAttribute="width" secondItem="ttK-MX-9xE" secondAttribute="width" id="Yaj-rf-Jj1"/>
+                            <constraint firstItem="Df5-Wr-gdh" firstAttribute="leading" secondItem="OET-7s-G7v" secondAttribute="leading" id="mUJ-Gv-Aoo"/>
+                            <constraint firstItem="Df5-Wr-gdh" firstAttribute="trailing" secondItem="OET-7s-G7v" secondAttribute="trailing" id="py0-dP-OyP"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="414" height="896"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f88-cs-IyJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2723" y="71"/>
         </scene>
         <!--Web Browser View Controller-->
         <scene sceneID="kgY-iZ-LyM">
@@ -284,6 +388,29 @@
                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="33"/>
                                     <color key="baseForegroundColor" red="0.015686275440000001" green="0.0" blue="0.36470589040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="jGm-k5-9VC" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="P0G-g8-aqq"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-15 at 1.19.01 PM" translatesAutoresizingMaskIntoConstraints="NO" id="rLY-wN-YUT">
+                                <rect key="frame" x="0.0" y="790" width="101" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Home ↓" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yvd-ND-W0C">
+                                <rect key="frame" x="13" y="770" width="75" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V0E-dZ-kOG">
+                                <rect key="frame" x="13" y="790" width="75" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <segue destination="ruL-Uz-hwC" kind="presentation" modalPresentationStyle="fullScreen" id="hqT-F4-reb"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ffp-Gj-ArU"/>
@@ -295,7 +422,60 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KOu-jZ-hTg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="676.81159420289862" y="839.73214285714278"/>
+            <point key="canvasLocation" x="767" y="1075"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Zj0-rN-YW2">
+            <objects>
+                <viewController id="jGm-k5-9VC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PD7-gP-Kdd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dUs-M9-Wxm">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3oD-Es-1GK">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Quiz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fJR-8y-WJG">
+                                                <rect key="frame" x="170" y="52" width="75" height="46"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.50588238240000005" green="0.56862747670000002" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1500" id="veI-W2-3lg"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="3oD-Es-1GK" secondAttribute="bottom" id="3id-wj-Rbw"/>
+                                    <constraint firstAttribute="trailing" secondItem="3oD-Es-1GK" secondAttribute="trailing" id="6wa-wf-unK"/>
+                                    <constraint firstItem="3oD-Es-1GK" firstAttribute="leading" secondItem="dUs-M9-Wxm" secondAttribute="leading" id="Zpn-4t-uPY"/>
+                                    <constraint firstItem="3oD-Es-1GK" firstAttribute="top" secondItem="dUs-M9-Wxm" secondAttribute="top" id="aG6-cg-CMV"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="QpX-Ze-fDK"/>
+                        <color key="backgroundColor" red="0.50588238240000005" green="0.56862747670000002" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="3oD-Es-1GK" firstAttribute="width" secondItem="PD7-gP-Kdd" secondAttribute="width" id="1iQ-f6-mvu"/>
+                            <constraint firstAttribute="bottom" secondItem="dUs-M9-Wxm" secondAttribute="bottom" id="H1e-Wz-lsY"/>
+                            <constraint firstItem="dUs-M9-Wxm" firstAttribute="top" secondItem="PD7-gP-Kdd" secondAttribute="top" id="X9s-qA-tWx"/>
+                            <constraint firstItem="dUs-M9-Wxm" firstAttribute="trailing" secondItem="QpX-Ze-fDK" secondAttribute="trailing" id="gVZ-VX-RBL"/>
+                            <constraint firstItem="dUs-M9-Wxm" firstAttribute="leading" secondItem="QpX-Ze-fDK" secondAttribute="leading" id="vvq-oF-z4A"/>
+                            <constraint firstItem="3oD-Es-1GK" firstAttribute="height" secondItem="PD7-gP-Kdd" secondAttribute="height" multiplier="1.67411" id="zaM-hE-fKh"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="414" height="896"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JPn-hD-5dA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="766.66666666666674" y="1869.6428571428571"/>
         </scene>
         <!--Google Docs View Controller-->
         <scene sceneID="2EF-Za-5dq">
@@ -351,6 +531,26 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-15 at 1.19.01 PM" translatesAutoresizingMaskIntoConstraints="NO" id="lvq-ib-l9t">
+                                <rect key="frame" x="0.0" y="793" width="101" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Home ↓" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4NS-w3-jGV">
+                                <rect key="frame" x="13" y="774" width="75" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jof-hf-g2p">
+                                <rect key="frame" x="13" y="793" width="75" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <segue destination="ruL-Uz-hwC" kind="presentation" modalPresentationStyle="fullScreen" id="ttn-bg-Lia"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Lvv-jv-c7A"/>
                         <color key="backgroundColor" red="0.50588238240000005" green="0.56862747670000002" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -361,62 +561,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rie-CO-Qyt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1369.5652173913045" y="839.73214285714278"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="UNV-ht-Qqk">
-            <objects>
-                <viewController id="Vqh-er-zCm" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ERo-ac-7vE">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nS5-va-QoB">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="916"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="OKG-A0-lxQ">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1533"/>
-                                        <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KWE-IV-YN9">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="1533"/>
-                                                <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ALL COURSES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nv2-q0-LTH">
-                                                        <rect key="frame" x="109" y="52" width="197" height="33"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="29"/>
-                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
-                                                <color key="backgroundColor" red="0.015686275440000001" green="0.0" blue="0.36470589040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                            </view>
-                                        </subviews>
-                                        <color key="backgroundColor" red="0.015686275440000001" green="0.0" blue="0.36470589040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="1533" id="HdV-VX-D6Y"/>
-                                        </constraints>
-                                    </stackView>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="OKG-A0-lxQ" firstAttribute="bottom" secondItem="Cwb-D8-qjy" secondAttribute="bottom" id="Jz7-c7-sdW"/>
-                                    <constraint firstItem="OKG-A0-lxQ" firstAttribute="trailing" secondItem="Cwb-D8-qjy" secondAttribute="trailing" id="chV-QC-U2M"/>
-                                    <constraint firstItem="OKG-A0-lxQ" firstAttribute="leading" secondItem="Cwb-D8-qjy" secondAttribute="leading" id="hB7-vY-hON"/>
-                                    <constraint firstItem="OKG-A0-lxQ" firstAttribute="top" secondItem="Cwb-D8-qjy" secondAttribute="top" id="oYk-eD-dTl"/>
-                                    <constraint firstItem="OKG-A0-lxQ" firstAttribute="width" secondItem="n6a-Zq-qvX" secondAttribute="width" id="yWC-11-huP"/>
-                                </constraints>
-                                <viewLayoutGuide key="contentLayoutGuide" id="Cwb-D8-qjy"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="n6a-Zq-qvX"/>
-                            </scrollView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="QBV-bZ-oz4"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="a5n-F8-xeN"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hUj-Xc-aUj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1528.985507246377" y="70.982142857142847"/>
+            <point key="canvasLocation" x="1516" y="1075"/>
         </scene>
         <!--Google Sheets View Controller-->
         <scene sceneID="FZD-W0-3nh">
@@ -472,6 +617,26 @@
                                     <wkPreferences key="preferences"/>
                                 </wkWebViewConfiguration>
                             </wkWebView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-15 at 1.19.01 PM" translatesAutoresizingMaskIntoConstraints="NO" id="gy6-SG-WFh">
+                                <rect key="frame" x="7" y="796" width="101" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0pm-0G-lYm">
+                                <rect key="frame" x="20" y="796" width="75" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <segue destination="ruL-Uz-hwC" kind="presentation" modalPresentationStyle="fullScreen" id="EQh-5l-1Pl"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Home ↓" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZEi-pI-e12">
+                                <rect key="frame" x="20" y="777" width="75" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="mJf-lK-w4Z"/>
                         <color key="backgroundColor" red="0.50588238240000005" green="0.56862747670000002" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -482,7 +647,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wm7-Va-YPe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2082.608695652174" y="839.73214285714278"/>
+            <point key="canvasLocation" x="2241" y="1075"/>
         </scene>
         <!--Google Calendar View Controller-->
         <scene sceneID="Hhf-ec-kkU">
@@ -538,6 +703,26 @@
                                     <wkPreferences key="preferences"/>
                                 </wkWebViewConfiguration>
                             </wkWebView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-15 at 1.19.01 PM" translatesAutoresizingMaskIntoConstraints="NO" id="XTL-gx-ioQ">
+                                <rect key="frame" x="13" y="796" width="101" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nfm-Rq-57m">
+                                <rect key="frame" x="26" y="796" width="75" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <segue destination="ruL-Uz-hwC" kind="presentation" modalPresentationStyle="fullScreen" id="V7o-hH-AtE"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Home ↓" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wy8-gW-hkR">
+                                <rect key="frame" x="26" y="775" width="75" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="wMx-IF-DkR"/>
                         <color key="backgroundColor" red="0.50588238240000005" green="0.56862747670000002" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -548,9 +733,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6RD-sg-SPi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2798.5507246376815" y="839.73214285714278"/>
+            <point key="canvasLocation" x="2990" y="1075"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="hqT-F4-reb"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="Screen Shot 2022-08-15 at 1.19.01 PM" width="158" height="176"/>
         <image name="gearshape.fill" catalog="system" width="128" height="121"/>
@@ -558,8 +746,5 @@
         <image name="logo 2" width="354" height="318"/>
         <image name="magnifyingglass.circle.fill" catalog="system" width="128" height="121"/>
         <image name="star.fill" catalog="system" width="128" height="116"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>
