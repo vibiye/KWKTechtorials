@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD18B59B28AC01D900FDF03D /* EmbedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD18B59A28AC01D900FDF03D /* EmbedViewController.swift */; };
 		BD34078028AAADFE00540F85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD34077F28AAADFE00540F85 /* AppDelegate.swift */; };
 		BD34078228AAADFE00540F85 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD34078128AAADFE00540F85 /* SceneDelegate.swift */; };
 		BD34078428AAADFE00540F85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD34078328AAADFE00540F85 /* ViewController.swift */; };
@@ -14,9 +15,13 @@
 		BD34078A28AAADFE00540F85 /* techtorials.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD34078828AAADFE00540F85 /* techtorials.xcdatamodeld */; };
 		BD34078C28AAADFF00540F85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD34078B28AAADFF00540F85 /* Assets.xcassets */; };
 		BD34078F28AAADFF00540F85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD34078D28AAADFF00540F85 /* LaunchScreen.storyboard */; };
+		BD5EE76528AC112900CF8A8E /* GoogleDocsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5EE76428AC112900CF8A8E /* GoogleDocsViewController.swift */; };
+		BD5EE76728AC144B00CF8A8E /* GoogleSheetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5EE76628AC144B00CF8A8E /* GoogleSheetsViewController.swift */; };
+		BD5EE76928AC16A200CF8A8E /* GoogleCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5EE76828AC16A200CF8A8E /* GoogleCalendarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD18B59A28AC01D900FDF03D /* EmbedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbedViewController.swift; sourceTree = "<group>"; };
 		BD34077C28AAADFE00540F85 /* techtorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = techtorials.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD34077F28AAADFE00540F85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD34078128AAADFE00540F85 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +31,9 @@
 		BD34078B28AAADFF00540F85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD34078E28AAADFF00540F85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD34079028AAADFF00540F85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD5EE76428AC112900CF8A8E /* GoogleDocsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleDocsViewController.swift; sourceTree = "<group>"; };
+		BD5EE76628AC144B00CF8A8E /* GoogleSheetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSheetsViewController.swift; sourceTree = "<group>"; };
+		BD5EE76828AC16A200CF8A8E /* GoogleCalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleCalendarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +69,10 @@
 				BD34077F28AAADFE00540F85 /* AppDelegate.swift */,
 				BD34078128AAADFE00540F85 /* SceneDelegate.swift */,
 				BD34078328AAADFE00540F85 /* ViewController.swift */,
+				BD18B59A28AC01D900FDF03D /* EmbedViewController.swift */,
+				BD5EE76428AC112900CF8A8E /* GoogleDocsViewController.swift */,
+				BD5EE76628AC144B00CF8A8E /* GoogleSheetsViewController.swift */,
+				BD5EE76828AC16A200CF8A8E /* GoogleCalendarViewController.swift */,
 				BD34078528AAADFE00540F85 /* Main.storyboard */,
 				BD34078B28AAADFF00540F85 /* Assets.xcassets */,
 				BD34078D28AAADFF00540F85 /* LaunchScreen.storyboard */,
@@ -142,9 +154,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD34078428AAADFE00540F85 /* ViewController.swift in Sources */,
+				BD5EE76728AC144B00CF8A8E /* GoogleSheetsViewController.swift in Sources */,
 				BD34078028AAADFE00540F85 /* AppDelegate.swift in Sources */,
 				BD34078A28AAADFE00540F85 /* techtorials.xcdatamodeld in Sources */,
 				BD34078228AAADFE00540F85 /* SceneDelegate.swift in Sources */,
+				BD5EE76528AC112900CF8A8E /* GoogleDocsViewController.swift in Sources */,
+				BD18B59B28AC01D900FDF03D /* EmbedViewController.swift in Sources */,
+				BD5EE76928AC16A200CF8A8E /* GoogleCalendarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
