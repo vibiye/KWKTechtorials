@@ -18,6 +18,8 @@
 		BD5EE76528AC112900CF8A8E /* GoogleDocsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5EE76428AC112900CF8A8E /* GoogleDocsViewController.swift */; };
 		BD5EE76728AC144B00CF8A8E /* GoogleSheetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5EE76628AC144B00CF8A8E /* GoogleSheetsViewController.swift */; };
 		BD5EE76928AC16A200CF8A8E /* GoogleCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5EE76828AC16A200CF8A8E /* GoogleCalendarViewController.swift */; };
+		BD683E3F28AD6E9600B0FF6E /* GoogleDocsQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD683E3E28AD6E9600B0FF6E /* GoogleDocsQuizViewController.swift */; };
+		BDB1735428AD609600E5069B /* WebBrowserQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB1735328AD609600E5069B /* WebBrowserQuizViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		BD5EE76428AC112900CF8A8E /* GoogleDocsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleDocsViewController.swift; sourceTree = "<group>"; };
 		BD5EE76628AC144B00CF8A8E /* GoogleSheetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSheetsViewController.swift; sourceTree = "<group>"; };
 		BD5EE76828AC16A200CF8A8E /* GoogleCalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleCalendarViewController.swift; sourceTree = "<group>"; };
+		BD683E3E28AD6E9600B0FF6E /* GoogleDocsQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleDocsQuizViewController.swift; sourceTree = "<group>"; };
+		BDB1735328AD609600E5069B /* WebBrowserQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebBrowserQuizViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 				BD5EE76428AC112900CF8A8E /* GoogleDocsViewController.swift */,
 				BD5EE76628AC144B00CF8A8E /* GoogleSheetsViewController.swift */,
 				BD5EE76828AC16A200CF8A8E /* GoogleCalendarViewController.swift */,
+				BDB1735328AD609600E5069B /* WebBrowserQuizViewController.swift */,
+				BD683E3E28AD6E9600B0FF6E /* GoogleDocsQuizViewController.swift */,
 				BD34078528AAADFE00540F85 /* Main.storyboard */,
 				BD34078B28AAADFF00540F85 /* Assets.xcassets */,
 				BD34078D28AAADFF00540F85 /* LaunchScreen.storyboard */,
@@ -155,12 +161,14 @@
 			files = (
 				BD34078428AAADFE00540F85 /* ViewController.swift in Sources */,
 				BD5EE76728AC144B00CF8A8E /* GoogleSheetsViewController.swift in Sources */,
+				BDB1735428AD609600E5069B /* WebBrowserQuizViewController.swift in Sources */,
 				BD34078028AAADFE00540F85 /* AppDelegate.swift in Sources */,
 				BD34078A28AAADFE00540F85 /* techtorials.xcdatamodeld in Sources */,
 				BD34078228AAADFE00540F85 /* SceneDelegate.swift in Sources */,
 				BD5EE76528AC112900CF8A8E /* GoogleDocsViewController.swift in Sources */,
 				BD18B59B28AC01D900FDF03D /* EmbedViewController.swift in Sources */,
 				BD5EE76928AC16A200CF8A8E /* GoogleCalendarViewController.swift in Sources */,
+				BD683E3F28AD6E9600B0FF6E /* GoogleDocsQuizViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

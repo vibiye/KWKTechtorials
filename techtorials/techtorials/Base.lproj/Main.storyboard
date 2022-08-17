@@ -234,14 +234,14 @@
         <scene sceneID="F98-SS-Sar">
             <objects>
                 <viewController id="guP-G0-BtQ" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ttK-MX-9xE">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="ttK-MX-9xE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Df5-Wr-gdh">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Df5-Wr-gdh">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LgL-0I-swa">
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LgL-0I-swa">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ALL COURSES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fO6-sN-gKl">
@@ -389,7 +389,7 @@
                                     <color key="baseForegroundColor" red="0.015686275440000001" green="0.0" blue="0.36470589040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="OG5-Iy-9LQ" kind="presentation" modalPresentationStyle="fullScreen" id="eZh-pG-Yxi"/>
+                                    <segue destination="m4K-U6-IBu" kind="presentation" modalPresentationStyle="fullScreen" id="JNg-8M-dgX"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-15 at 1.19.01 PM" translatesAutoresizingMaskIntoConstraints="NO" id="rLY-wN-YUT">
@@ -459,209 +459,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KOu-jZ-hTg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="766.66666666666674" y="1074.1071428571429"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="dxr-wJ-5dj">
-            <objects>
-                <viewController id="OG5-Iy-9LQ" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="DjP-A8-8xI">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="898"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="frO-aK-HVM">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="898"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8BA-43-YF2">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2004.5"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1️⃣ How can you download  Google Chrome? " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jvp-ac-v7Z">
-                                                <rect key="frame" x="29" y="119" width="365" height="81"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="29"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Test your web browser knowledge!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PiO-Pn-Hm0">
-                                                <rect key="frame" x="50" y="69" width="321" height="37"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="19"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="🌐 Web Browser Quiz 🌐" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F7b-Oy-w0z">
-                                                <rect key="frame" x="1" y="6" width="411" height="63"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="33"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pz8-ff-BMB">
-                                                <rect key="frame" x="33" y="466" width="348" height="74"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="It is always preinstalled on              your computer.">
-                                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rlo-cp-WXc">
-                                                <rect key="frame" x="35" y="382" width="346" height="74"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Use a web browser to search for Google Chrome Installer.">
-                                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DE9-dK-fje">
-                                                <rect key="frame" x="35" y="298" width="346" height="74"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Go to Best Buy to purchase it.">
-                                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bW3-HX-ZFV">
-                                                <rect key="frame" x="35" y="216" width="343" height="74"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.68846392789921085" green="0.66692612746165181" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <color key="tintColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="          You can't unless it is preinstalled on your computer." subtitle="">
-                                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="21"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2️⃣ What are bookmarks for on Google Chrome?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7We-cK-vnD">
-                                                <rect key="frame" x="27" y="559" width="365" height="81"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="29"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sg6-jA-z9K">
-                                                <rect key="frame" x="35" y="906" width="346" height="74"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Saving a page in your chapter                            book.">
-                                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nfB-PE-AaF">
-                                                <rect key="frame" x="33" y="822" width="348" height="74"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Pinning a website to your                  desktop.">
-                                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j2s-4i-QUN">
-                                                <rect key="frame" x="33" y="738" width="348" height="74"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Saving a website you use    often for easy access.">
-                                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xbg-wD-B22">
-                                                <rect key="frame" x="35" y="656" width="343" height="74"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.68846392789999999" green="0.66692612750000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <color key="tintColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Saving your page in an e-book." subtitle="">
-                                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="21"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3️⃣ How do you bookmark a website on Google Chrome?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="flB-S1-2bf">
-                                                <rect key="frame" x="27" y="999" width="367" height="81"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="27"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4zt-vn-Cb3">
-                                                <rect key="frame" x="31" y="1346" width="347" height="74"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Type the bookmark in the                 search bar.">
-                                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n8X-Lv-jvx">
-                                                <rect key="frame" x="31" y="1262" width="348" height="74"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Right click the website logo.">
-                                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f72-aL-FlY">
-                                                <rect key="frame" x="29" y="1178" width="352" height="74"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Click enter once you type the                       URL in.">
-                                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rGc-N1-z8L">
-                                                <rect key="frame" x="31" y="1096" width="348" height="74"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.68846392789999999" green="0.66692612750000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <color key="tintColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Click the star to the right of the                       search bar." subtitle="">
-                                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="21"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your Score: " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oUp-aH-y8e">
-                                                <rect key="frame" x="21" y="1446" width="367" height="81"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="27"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                        <color key="backgroundColor" red="0.50588238240000005" green="0.56862747670000002" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="2000" id="0d4-Yg-E3B"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="8BA-43-YF2" secondAttribute="bottom" id="LUL-ho-S5Z"/>
-                                    <constraint firstItem="8BA-43-YF2" firstAttribute="leading" secondItem="frO-aK-HVM" secondAttribute="leading" id="LvL-op-A6g"/>
-                                    <constraint firstItem="8BA-43-YF2" firstAttribute="top" secondItem="frO-aK-HVM" secondAttribute="top" id="MXn-xn-cZi"/>
-                                    <constraint firstAttribute="trailing" secondItem="8BA-43-YF2" secondAttribute="trailing" id="mIE-7A-xTz"/>
-                                </constraints>
-                            </scrollView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="KhF-jM-AKs"/>
-                        <color key="backgroundColor" red="0.50588238240000005" green="0.56862747670000002" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <constraints>
-                            <constraint firstItem="frO-aK-HVM" firstAttribute="trailing" secondItem="KhF-jM-AKs" secondAttribute="trailing" id="6G1-RH-CE2"/>
-                            <constraint firstItem="8BA-43-YF2" firstAttribute="height" secondItem="DjP-A8-8xI" secondAttribute="height" multiplier="2.23214" id="7lv-Dr-UrJ"/>
-                            <constraint firstAttribute="bottom" secondItem="frO-aK-HVM" secondAttribute="bottom" id="8xD-1c-FPq"/>
-                            <constraint firstItem="frO-aK-HVM" firstAttribute="top" secondItem="DjP-A8-8xI" secondAttribute="top" id="GTv-vY-agU"/>
-                            <constraint firstItem="8BA-43-YF2" firstAttribute="width" secondItem="DjP-A8-8xI" secondAttribute="width" id="LcY-MC-643"/>
-                            <constraint firstItem="frO-aK-HVM" firstAttribute="leading" secondItem="KhF-jM-AKs" secondAttribute="leading" id="tDT-7u-Jlw"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="Pdi-5S-07j"/>
-                    <size key="freeformSize" width="414" height="898"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8AA-u8-296" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="766.66666666666674" y="1766.5178571428571"/>
         </scene>
         <!--Google Docs View Controller-->
         <scene sceneID="2EF-Za-5dq">
@@ -1047,10 +844,10 @@
             </objects>
             <point key="canvasLocation" x="2990" y="1075"/>
         </scene>
-        <!--View Controller-->
+        <!--Web Browser Quiz View Controller-->
         <scene sceneID="e32-lt-Kfd">
             <objects>
-                <viewController id="m4K-U6-IBu" sceneMemberID="viewController">
+                <viewController id="m4K-U6-IBu" customClass="WebBrowserQuizViewController" customModule="techtorials" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ekP-4m-X02">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="898"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1090,6 +887,9 @@
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
                                                     <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q1Btn4:" destination="m4K-U6-IBu" eventType="touchUpInside" id="twe-u6-Cdq"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iyZ-HG-iTk">
                                                 <rect key="frame" x="35" y="382" width="346" height="74"/>
@@ -1097,8 +897,12 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Use a web browser to search for Google Chrome Installer.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="baseBackgroundColor" red="0.72941178080000002" green="0.68627452850000004" blue="0.97647058959999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q1Btn3:" destination="m4K-U6-IBu" eventType="touchUpInside" id="B5L-to-lte"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oVZ-Q3-FeE">
                                                 <rect key="frame" x="35" y="298" width="346" height="74"/>
@@ -1108,6 +912,9 @@
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
                                                     <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q1Btn2:" destination="m4K-U6-IBu" eventType="touchUpInside" id="Wou-i2-ITO"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2) What are bookmarks for on Google Chrome?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dc2-us-zDm">
                                                 <rect key="frame" x="29" y="559" width="352" height="81"/>
@@ -1124,6 +931,9 @@
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
                                                     <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q2Btn4:" destination="m4K-U6-IBu" eventType="touchUpInside" id="fud-3d-xRM"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HAA-3d-urL">
                                                 <rect key="frame" x="33" y="822" width="348" height="74"/>
@@ -1133,6 +943,9 @@
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
                                                     <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q2Btn3:" destination="m4K-U6-IBu" eventType="touchUpInside" id="AAV-wY-qmR"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lQ6-BJ-9Sw">
                                                 <rect key="frame" x="33" y="738" width="348" height="74"/>
@@ -1142,6 +955,9 @@
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
                                                     <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q2Btn2:" destination="m4K-U6-IBu" eventType="touchUpInside" id="EzT-sS-hZ2"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G11-G5-uy2">
                                                 <rect key="frame" x="33" y="655" width="348" height="74"/>
@@ -1151,6 +967,9 @@
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
                                                     <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q2Btn1:" destination="m4K-U6-IBu" eventType="touchUpInside" id="3j8-J1-bHC"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3) How do you bookmark a website on Google Chrome?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yKo-ux-pf7">
                                                 <rect key="frame" x="31" y="999" width="347" height="81"/>
@@ -1167,6 +986,9 @@
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
                                                     <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q3Btn4:" destination="m4K-U6-IBu" eventType="touchUpInside" id="qtg-Ke-cj0"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fMf-9R-ZMi">
                                                 <rect key="frame" x="31" y="1262" width="348" height="74"/>
@@ -1176,6 +998,9 @@
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
                                                     <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q3Btn3:" destination="m4K-U6-IBu" eventType="touchUpInside" id="HAA-mY-5y5"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wPP-hA-5vQ">
                                                 <rect key="frame" x="31" y="1178" width="347" height="74"/>
@@ -1185,9 +1010,12 @@
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
                                                     <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q3Btn2:" destination="m4K-U6-IBu" eventType="touchUpInside" id="zlI-RD-aw9"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your Score: " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3h3-rE-Sqa">
-                                                <rect key="frame" x="21" y="1446" width="367" height="81"/>
+                                                <rect key="frame" x="23" y="1446" width="367" height="81"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="27"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1199,8 +1027,12 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="           You can't unless it is preinstalled on your computer.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="21"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q1Btn1:" destination="m4K-U6-IBu" eventType="touchUpInside" id="vfa-eV-nuw"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JM5-MQ-1EM">
                                                 <rect key="frame" x="31" y="1093" width="348" height="74"/>
@@ -1210,9 +1042,46 @@
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
                                                     <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q3Btn1:" destination="m4K-U6-IBu" eventType="touchUpInside" id="RfA-t7-TNc"/>
+                                                </connections>
                                             </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Num" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N1b-SQ-tsG">
+                                                <rect key="frame" x="184" y="1535" width="55" height="28"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="24"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Message" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4dI-MX-2sF">
+                                                <rect key="frame" x="29" y="1585" width="365" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-15 at 1.19.01 PM" translatesAutoresizingMaskIntoConstraints="NO" id="qOF-NX-Vba">
+                                                <rect key="frame" x="125" y="1715" width="172" height="180"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rZK-lo-T11">
+                                                <rect key="frame" x="125" y="1715" width="172" height="180"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain"/>
+                                                <connections>
+                                                    <segue destination="ruL-Uz-hwC" kind="presentation" modalPresentationStyle="fullScreen" id="4iy-fJ-Ohg"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Home↓" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tAH-Av-Y5K">
+                                                <rect key="frame" x="125" y="1677" width="172" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="44"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.50588238240000005" green="0.56862747670000002" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.50588235294117645" green="0.56862745098039214" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="2000" id="EzH-Qo-eK2"/>
                                         </constraints>
@@ -1239,15 +1108,32 @@
                     </view>
                     <navigationItem key="navigationItem" id="5WI-iK-LrO"/>
                     <size key="freeformSize" width="414" height="898"/>
+                    <connections>
+                        <outlet property="messageTxt" destination="4dI-MX-2sF" id="VKn-Mv-9Au"/>
+                        <outlet property="q1B1" destination="1Cs-El-khj" id="tpV-VX-POo"/>
+                        <outlet property="q1B2" destination="oVZ-Q3-FeE" id="TCf-8T-qoc"/>
+                        <outlet property="q1B3" destination="iyZ-HG-iTk" id="1s2-6j-PCn"/>
+                        <outlet property="q1B4" destination="FLR-w9-Vry" id="Nnl-g5-GMs"/>
+                        <outlet property="q2B1" destination="G11-G5-uy2" id="RXY-bE-NoM"/>
+                        <outlet property="q2B2" destination="lQ6-BJ-9Sw" id="sZC-T6-xvA"/>
+                        <outlet property="q2B3" destination="HAA-3d-urL" id="i6Q-4W-vKd"/>
+                        <outlet property="q2B4" destination="rQA-3k-kJz" id="7zM-X2-SOm"/>
+                        <outlet property="q3B1" destination="JM5-MQ-1EM" id="uvL-CD-UnN"/>
+                        <outlet property="q3B2" destination="wPP-hA-5vQ" id="T41-ED-EUU"/>
+                        <outlet property="q3B3" destination="fMf-9R-ZMi" id="FSx-0V-0To"/>
+                        <outlet property="q3B4" destination="o2J-4h-kjf" id="Lmh-YR-b3x"/>
+                        <outlet property="quest1" destination="7Bk-YV-5Zx" id="u9c-Ab-bW9"/>
+                        <outlet property="scoreNumTxt" destination="N1b-SQ-tsG" id="uTe-62-utE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1V6-Ji-5xo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="766.66666666666674" y="1766.5178571428571"/>
+            <point key="canvasLocation" x="763.768115942029" y="1766.5178571428571"/>
         </scene>
-        <!--View Controller-->
+        <!--Google Docs Quiz View Controller-->
         <scene sceneID="p0Z-JZ-hWR">
             <objects>
-                <viewController id="9uz-bD-KYn" sceneMemberID="viewController">
+                <viewController id="9uz-bD-KYn" customClass="GoogleDocsQuizViewController" customModule="techtorials" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DbT-le-qjA">
                         <rect key="frame" x="0.0" y="0.0" width="416" height="898"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1287,6 +1173,9 @@
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
                                                     <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q1Btn4:" destination="9uz-bD-KYn" eventType="touchUpInside" id="tbK-m8-2Ps"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xsi-QY-r4N">
                                                 <rect key="frame" x="33" y="382" width="348" height="74"/>
@@ -1296,6 +1185,9 @@
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
                                                     <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q1Btn3:" destination="9uz-bD-KYn" eventType="touchUpInside" id="xgf-nk-3sZ"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HI1-L1-Pgi">
                                                 <rect key="frame" x="35" y="298" width="346" height="74"/>
@@ -1305,6 +1197,9 @@
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
                                                     <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q1Btn2:" destination="9uz-bD-KYn" eventType="touchUpInside" id="crU-Ap-7He"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2) How do you change the alignment of your text?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r3l-Jz-0H3">
                                                 <rect key="frame" x="33" y="559" width="345" height="81"/>
@@ -1321,6 +1216,9 @@
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
                                                     <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q2Btn4:" destination="9uz-bD-KYn" eventType="touchUpInside" id="Eij-ct-3yI"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ewl-xg-3Lz">
                                                 <rect key="frame" x="33" y="822" width="348" height="74"/>
@@ -1330,6 +1228,9 @@
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
                                                     <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q2Btn3:" destination="9uz-bD-KYn" eventType="touchUpInside" id="Hie-8W-gbS"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ua-A2-AZx">
                                                 <rect key="frame" x="33" y="738" width="348" height="74"/>
@@ -1339,6 +1240,9 @@
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
                                                     <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q2Btn2:" destination="9uz-bD-KYn" eventType="touchUpInside" id="n3G-fZ-chq"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h5x-te-Se8">
                                                 <rect key="frame" x="33" y="655" width="347" height="74"/>
@@ -1348,6 +1252,9 @@
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
                                                     <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q2Btn1:" destination="9uz-bD-KYn" eventType="touchUpInside" id="8X0-00-vjg"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bV5-gH-GcU">
                                                 <rect key="frame" x="31" y="1346" width="350" height="74"/>
@@ -1357,6 +1264,9 @@
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
                                                     <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q3Btn4:" destination="9uz-bD-KYn" eventType="touchUpInside" id="cL0-sC-rvU"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gbe-Lv-QDc">
                                                 <rect key="frame" x="30" y="1262" width="351" height="74"/>
@@ -1366,6 +1276,9 @@
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
                                                     <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q3Btn3:" destination="9uz-bD-KYn" eventType="touchUpInside" id="mju-5c-juQ"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xpF-NF-2Zf">
                                                 <rect key="frame" x="31" y="1178" width="347" height="74"/>
@@ -1375,6 +1288,9 @@
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
                                                     <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q3Btn2:" destination="9uz-bD-KYn" eventType="touchUpInside" id="biv-hG-gjF"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SBd-rA-4G2">
                                                 <rect key="frame" x="31" y="1093" width="348" height="74"/>
@@ -1384,6 +1300,9 @@
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
                                                     <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q3Btn1:" destination="9uz-bD-KYn" eventType="touchUpInside" id="MY6-qS-PXC"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your Score: " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6FQ-Lc-00d">
                                                 <rect key="frame" x="21" y="1446" width="367" height="81"/>
@@ -1400,12 +1319,49 @@
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="21"/>
                                                     <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q1Btn1:" destination="9uz-bD-KYn" eventType="touchUpInside" id="DKX-th-qgA"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3) How can you share documents?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dGJ-NV-7u6">
                                                 <rect key="frame" x="30" y="1000" width="351" height="81"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="27"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Num" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B17-F6-tnY">
+                                                <rect key="frame" x="179" y="1578" width="55" height="28"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="24"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Message" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UGq-Gt-NLI">
+                                                <rect key="frame" x="25" y="1628" width="365" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-15 at 1.19.01 PM" translatesAutoresizingMaskIntoConstraints="NO" id="3Tb-u4-e7o">
+                                                <rect key="frame" x="118" y="1748" width="172" height="180"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OcS-Ns-Hob">
+                                                <rect key="frame" x="118" y="1748" width="172" height="180"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain"/>
+                                                <connections>
+                                                    <segue destination="ruL-Uz-hwC" kind="presentation" modalPresentationStyle="fullScreen" id="wG7-Q1-E6Q"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Home↓" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gDt-5n-QrV">
+                                                <rect key="frame" x="118" y="1710" width="172" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="44"/>
+                                                <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -1436,6 +1392,22 @@
                     </view>
                     <navigationItem key="navigationItem" id="0AX-JE-p7v"/>
                     <size key="freeformSize" width="416" height="898"/>
+                    <connections>
+                        <outlet property="messageTxt" destination="UGq-Gt-NLI" id="uAD-Cj-nmH"/>
+                        <outlet property="q1B1" destination="aOe-4x-BDQ" id="83N-3n-SCo"/>
+                        <outlet property="q1B2" destination="HI1-L1-Pgi" id="Oo4-s3-9jf"/>
+                        <outlet property="q1B3" destination="Xsi-QY-r4N" id="zMd-mq-FeZ"/>
+                        <outlet property="q1B4" destination="phT-da-vGn" id="dO0-LP-aVq"/>
+                        <outlet property="q2B1" destination="h5x-te-Se8" id="0kN-Or-dK9"/>
+                        <outlet property="q2B2" destination="5ua-A2-AZx" id="qmX-us-2Za"/>
+                        <outlet property="q2B3" destination="ewl-xg-3Lz" id="GsG-r4-Q1N"/>
+                        <outlet property="q2B4" destination="dT5-YL-hJO" id="xld-ME-yQq"/>
+                        <outlet property="q3B1" destination="SBd-rA-4G2" id="37h-YI-j7J"/>
+                        <outlet property="q3B2" destination="xpF-NF-2Zf" id="qUl-sL-umb"/>
+                        <outlet property="q3B3" destination="Gbe-Lv-QDc" id="sbF-uw-9t1"/>
+                        <outlet property="q3B4" destination="bV5-gH-GcU" id="GSE-ld-QFT"/>
+                        <outlet property="scoreNumTxt" destination="B17-F6-tnY" id="W3f-Sj-kNl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ymz-8T-yMe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1833,11 +1805,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dlw-Fo-oa6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2989.8550724637685" y="1766.5178571428571"/>
+            <point key="canvasLocation" x="2990" y="1767"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="V7o-hH-AtE"/>
+        <segue reference="wG7-Q1-E6Q"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Screen Shot 2022-08-15 at 1.19.01 PM" width="158" height="176"/>
