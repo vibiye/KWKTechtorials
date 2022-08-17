@@ -9,8 +9,8 @@ import UIKit
 import WebKit
 
 class GoogleDocsViewController: UIViewController {
-    let url1 = URL(string: "https://support.google.com/a/users/answer/9282664?hl=en ")
-    let url2 = URL(string: "https://www.lfpl.org/jobshop/docs/google-docs.pdf ")
+    let url1 = URL(string: "https://support.google.com/a/users/answer/9282664?hl=en")
+    let url2 = URL(string: "https://www.lfpl.org/jobshop/docs/google-docs.pdf")
     let url3 = URL(string: "https://www.youtube.com/watch?v=OBITNezSmLY")
     @IBOutlet weak var wv: WKWebView!
     
