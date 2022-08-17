@@ -9,6 +9,9 @@ import UIKit
 import WebKit
 
 class GoogleCalendarViewController: UIViewController {
+    let url1 = URL(string: "https://support.google.com/a/users/answer/9247501?hl=en")
+    let url2 = URL(string: "https://blog.hubspot.com/marketing/google-calendar-tips")
+    let url3 = URL(string: "https://www.youtube.com/watch?v=SPA0VnDRDgM")
 
     @IBOutlet weak var wv: WKWebView!
     override func viewDidLoad() {
@@ -21,6 +24,18 @@ class GoogleCalendarViewController: UIViewController {
                 let youtubeURL = URL(string: "https://www.youtube.com/embed/\(videoID)")
                 else { return }
         wv.load( URLRequest(url: youtubeURL) )
+    }
+    
+    @IBAction func url1Btn(_ sender: Any) {
+        UIApplication.shared.open(url1!)
+    }
+    
+    @IBAction func url2Btn(_ sender: Any) {
+        UIApplication.shared.open(url2!)
+    }
+    
+    @IBAction func url3Btn(_ sender: Any) {
+        UIApplication.shared.open(url3!)
     }
     
 

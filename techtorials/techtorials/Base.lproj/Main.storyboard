@@ -602,6 +602,7 @@
                                     <color key="baseForegroundColor" red="0.015686275440000001" green="0.0" blue="0.36470589040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="url1Btn:" destination="npP-Qi-1wk" eventType="touchUpInside" id="i25-O5-Yr9"/>
                                     <action selector="url1Btn:" destination="2eZ-Fi-qg6" eventType="touchUpInside" id="mhS-0C-qyL"/>
                                 </connections>
                             </button>
@@ -614,6 +615,7 @@
                                     <color key="baseForegroundColor" red="0.015686275440000001" green="0.0" blue="0.36470589040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="url3Btn:" destination="npP-Qi-1wk" eventType="touchUpInside" id="12h-z4-Xhl"/>
                                     <action selector="url3Btn:" destination="2eZ-Fi-qg6" eventType="touchUpInside" id="uqT-mn-hQ8"/>
                                 </connections>
                             </button>
@@ -627,6 +629,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="url2Btn:" destination="2eZ-Fi-qg6" eventType="touchUpInside" id="AsR-Dh-LZ3"/>
+                                    <action selector="url2Btn:" destination="npP-Qi-1wk" eventType="touchUpInside" id="NZe-N6-wGX"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -716,15 +719,16 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pLT-pK-NOC">
-                                <rect key="frame" x="28" y="602" width="360" height="31"/>
+                                <rect key="frame" x="28" y="600" width="360" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Google Docs Training →">
+                                <buttonConfiguration key="configuration" style="plain" title="Google Sheets Training →">
                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="19"/>
                                     <color key="baseForegroundColor" red="0.015686275440000001" green="0.0" blue="0.36470589040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="url1Btn:" destination="2eZ-Fi-qg6" eventType="touchUpInside" id="3iJ-KO-prJ"/>
+                                    <action selector="url1Btn:" destination="Ii3-Cu-uM5" eventType="touchUpInside" id="TR9-Wa-bpH"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VDm-xA-nCH">
@@ -736,6 +740,7 @@
                                     <color key="baseForegroundColor" red="0.015686275440000001" green="0.0" blue="0.36470589040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="url3Btn:" destination="Ii3-Cu-uM5" eventType="touchUpInside" id="IdU-GY-8NE"/>
                                     <action selector="url3Btn:" destination="2eZ-Fi-qg6" eventType="touchUpInside" id="fay-Ae-5s6"/>
                                 </connections>
                             </button>
@@ -748,6 +753,7 @@
                                     <color key="baseForegroundColor" red="0.015686275440000001" green="0.0" blue="0.36470589040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="url2Btn:" destination="Ii3-Cu-uM5" eventType="touchUpInside" id="0f1-b3-C5x"/>
                                     <action selector="url2Btn:" destination="2eZ-Fi-qg6" eventType="touchUpInside" id="YLc-eM-DdL"/>
                                 </connections>
                             </button>
@@ -846,6 +852,7 @@
                                     <color key="baseForegroundColor" red="0.015686275440000001" green="0.0" blue="0.36470589040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="url1Btn:" destination="pE7-Aa-qZl" eventType="touchUpInside" id="IN4-4G-7yV"/>
                                     <action selector="url1Btn:" destination="2eZ-Fi-qg6" eventType="touchUpInside" id="v7V-wG-5C5"/>
                                 </connections>
                             </button>
@@ -859,6 +866,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="url3Btn:" destination="2eZ-Fi-qg6" eventType="touchUpInside" id="gyU-gx-2kw"/>
+                                    <action selector="url3Btn:" destination="pE7-Aa-qZl" eventType="touchUpInside" id="wme-ZI-hLU"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yM2-jj-gas">
@@ -870,6 +878,7 @@
                                     <color key="baseForegroundColor" red="0.015686275440000001" green="0.0" blue="0.36470589040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="url2Btn:" destination="pE7-Aa-qZl" eventType="touchUpInside" id="NtF-hO-Gms"/>
                                     <action selector="url2Btn:" destination="2eZ-Fi-qg6" eventType="touchUpInside" id="ssw-3O-Dij"/>
                                 </connections>
                             </button>
@@ -887,7 +896,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="hqT-F4-reb"/>
+        <segue reference="V7o-hH-AtE"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Screen Shot 2022-08-15 at 1.19.01 PM" width="158" height="176"/>
