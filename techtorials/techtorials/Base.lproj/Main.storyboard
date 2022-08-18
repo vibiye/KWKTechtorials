@@ -68,7 +68,8 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lND-bY-EjQ">
                                 <rect key="frame" x="0.0" y="209" width="414" height="611"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.93069727891156462" green="0.56862745100000001" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.79730278999436288" green="0.43943052285317002" blue="0.87450981139999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TECHtorial" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tia-kD-w7v">
                                 <rect key="frame" x="81" y="146" width="252" height="55"/>
@@ -84,8 +85,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="click on one of the buttons below to get started on your learning journey!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n6z-2h-5sW">
-                                <rect key="frame" x="20" y="251" width="374" height="52"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Click on one of the buttons below to get started on your learning journey!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n6z-2h-5sW">
+                                <rect key="frame" x="0.0" y="251" width="414" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -1151,7 +1152,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.66613520410000004" green="0.56862745100000001" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.66666666669999997" green="0.56862745100000001" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="2000" id="EzH-Qo-eK2"/>
                                         </constraints>
@@ -1166,7 +1167,7 @@
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="gNu-8Z-DOi"/>
-                        <color key="backgroundColor" red="0.50588238240000005" green="0.56862747670000002" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.66666666669999997" green="0.56862745100000001" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="w1g-cI-HNX" firstAttribute="leading" secondItem="gNu-8Z-DOi" secondAttribute="leading" id="0fE-32-nfJ"/>
                             <constraint firstItem="w1g-cI-HNX" firstAttribute="top" secondItem="ekP-4m-X02" secondAttribute="top" id="8tP-24-8dH"/>
@@ -1203,14 +1204,14 @@
         <scene sceneID="p0Z-JZ-hWR">
             <objects>
                 <viewController id="9uz-bD-KYn" customClass="GoogleDocsQuizViewController" customModule="techtorials" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="DbT-le-qjA">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="DbT-le-qjA">
                         <rect key="frame" x="0.0" y="0.0" width="416" height="898"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gj4-na-rbw">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gj4-na-rbw">
                                 <rect key="frame" x="0.0" y="0.0" width="416" height="898"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eKV-R6-eol">
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eKV-R6-eol">
                                         <rect key="frame" x="0.0" y="0.0" width="416" height="2004.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1) How do you name your Google Doc?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fQH-2I-dL2">
@@ -1434,7 +1435,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.66613520410000004" green="0.56862745100000001" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.66666666669999997" green="0.56862745100000001" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="2000" id="5Tw-xz-GRT"/>
                                         </constraints>
@@ -1449,7 +1450,7 @@
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bf1-hR-3L4"/>
-                        <color key="backgroundColor" red="0.50588238240000005" green="0.56862747670000002" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.66666666669999997" green="0.56862745100000001" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="eKV-R6-eol" firstAttribute="width" secondItem="DbT-le-qjA" secondAttribute="width" id="6fV-AV-G4Q"/>
                             <constraint firstItem="gj4-na-rbw" firstAttribute="top" secondItem="DbT-le-qjA" secondAttribute="top" id="NO9-9y-Di0"/>
@@ -1569,7 +1570,6 @@
                                                     <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="q1Btn4:" destination="kyw-VY-e7K" eventType="touchUpInside" id="9AB-MO-2r4"/>
                                                     <action selector="q2Btn4:" destination="kyw-VY-e7K" eventType="touchUpInside" id="0h0-RN-S9x"/>
                                                 </connections>
                                             </button>
@@ -1607,7 +1607,6 @@
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q2Btn1:" destination="kyw-VY-e7K" eventType="touchUpInside" id="tJp-fK-uqr"/>
-                                                    <action selector="q2tn1:" destination="kyw-VY-e7K" eventType="touchUpInside" id="Bq1-ma-beN"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DRR-Qg-pQo">
@@ -1720,7 +1719,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.66613520410000004" green="0.56862745100000001" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.66666666669999997" green="0.56862745100000001" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="2000" id="IH9-Zx-Fba"/>
                                         </constraints>
@@ -1735,7 +1734,7 @@
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="8wI-15-IX3"/>
-                        <color key="backgroundColor" red="0.50588238240000005" green="0.56862747670000002" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.66666666669999997" green="0.56862745100000001" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="KgQ-35-8Dn" firstAttribute="top" secondItem="DsI-yM-3nW" secondAttribute="top" id="0TG-2V-cu8"/>
                             <constraint firstAttribute="bottom" secondItem="KgQ-35-8Dn" secondAttribute="bottom" id="CLf-Z3-DL7"/>
@@ -2019,7 +2018,7 @@
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="sdu-YZ-Y1D"/>
-                        <color key="backgroundColor" red="0.50588238240000005" green="0.56862747670000002" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.66666666669999997" green="0.56862745100000001" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="2nL-Mz-AMO" firstAttribute="trailing" secondItem="sdu-YZ-Y1D" secondAttribute="trailing" id="8hs-c7-z0B"/>
                             <constraint firstAttribute="bottom" secondItem="2nL-Mz-AMO" secondAttribute="bottom" id="E62-GM-em0"/>
@@ -2033,8 +2032,8 @@
                     <size key="freeformSize" width="416" height="898"/>
                     <connections>
                         <outlet property="messageTxt" destination="dsW-LM-xPW" id="x6g-Uh-WJU"/>
-                        <outlet property="q1B1" destination="uyL-tM-Ph0" id="ZOc-Bc-wW6"/>
-                        <outlet property="q1B2" destination="uyL-tM-Ph0" id="kxm-Uf-ef0"/>
+                        <outlet property="q1B1" destination="w1F-J9-CND" id="1Lg-ju-obG"/>
+                        <outlet property="q1B2" destination="uyL-tM-Ph0" id="zwA-IU-ASU"/>
                         <outlet property="q1B3" destination="F1x-Ty-YyF" id="E7y-5j-4HJ"/>
                         <outlet property="q1B4" destination="AcP-ux-4Ey" id="Jtc-Hk-E4R"/>
                         <outlet property="q2B1" destination="BIl-fR-ttU" id="bET-7q-rwQ"/>
@@ -2509,7 +2508,7 @@
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="nBu-w4-4QL"/>
-                        <color key="backgroundColor" red="0.50588238240000005" green="0.56862747670000002" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.66666666666666663" green="0.56862745098039214" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="WlR-F6-ebB" firstAttribute="height" secondItem="Oaw-Br-Ceq" secondAttribute="height" multiplier="2.23214" id="Dwb-eR-oeX"/>
                             <constraint firstItem="M8r-Vi-1Je" firstAttribute="top" secondItem="Oaw-Br-Ceq" secondAttribute="top" id="JWn-ZN-KHy"/>
@@ -2605,7 +2604,7 @@
                                                 <rect key="frame" x="35" y="298" width="346" height="74"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="While loop">
+                                                <buttonConfiguration key="configuration" style="filled" title="For loop">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
                                                     <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
@@ -2672,7 +2671,7 @@
                                                 <rect key="frame" x="35" y="216" width="346" height="74"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="For loop">
+                                                <buttonConfiguration key="configuration" style="filled" title="While loop">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="21"/>
                                                     <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
@@ -2737,7 +2736,7 @@
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xpv-FF-kl0"/>
-                        <color key="backgroundColor" red="0.50588238240000005" green="0.56862747670000002" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.66666666669999997" green="0.56862745100000001" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="hx8-08-iPM" firstAttribute="top" secondItem="3m5-cp-6Y5" secondAttribute="top" id="3A4-ne-D9O"/>
                             <constraint firstAttribute="bottom" secondItem="hx8-08-iPM" secondAttribute="bottom" id="GxJ-7f-p5M"/>
@@ -3186,7 +3185,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="V2B-Us-naX"/>
         <segue reference="fXa-bR-G7L"/>
         <segue reference="sBN-Qa-LCH"/>
         <segue reference="reD-zz-maB"/>
@@ -3195,7 +3193,7 @@
         <segue reference="rOn-DX-ig5"/>
         <segue reference="xWv-3P-t9e"/>
         <segue reference="CFc-Iy-Ec0"/>
-        <segue reference="MXc-gZ-RWp"/>
+        <segue reference="m7Y-FM-YWt"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Screen Shot 2022-08-15 at 1.19.01 PM" width="158" height="176"/>
