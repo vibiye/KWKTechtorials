@@ -94,6 +94,7 @@ var score = 0
                 } else {
                     messageTxt.text = "error"
     }
+        scoreNumTxt.text = "\(score)/3"
     }
     @IBAction func q3Btn2(_ sender: Any) {
         q3B1.isHidden = true
@@ -111,6 +112,7 @@ var score = 0
                 } else {
                     messageTxt.text = "error"
     }
+        scoreNumTxt.text = "\(score)/3"
     }
     
     @IBAction func q3Btn3(_ sender: Any) {
@@ -129,6 +131,7 @@ var score = 0
                 } else {
                     messageTxt.text = "error"
     }
+        scoreNumTxt.text = "\(score)/3"
     }
     @IBAction func q3Btn4(_ sender: Any) {
         q3B1.isHidden = true
@@ -147,15 +150,8 @@ var score = 0
                 } else {
                     messageTxt.text = "error"
     }
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
+        scoreNumTxt.text = "\(score)/3"
+    
 
 }
 }
