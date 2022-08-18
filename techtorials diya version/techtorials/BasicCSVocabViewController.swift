@@ -5,16 +5,12 @@
 //  Created by scholar on 8/17/22.
 //
 
-import UIKit
-import WebKit
 class BasicCSVocabViewController: UIViewController {
 
-    @IBOutlet weak var basicCSVocabWebView: WKWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        let url: URL! = URL(string: "file:///Users/scholar/Downloads/Data%20Type%20Cheat%20Sheet.pdf")
-        basicCSVocabWebView.load(URLRequest(url: url))
-    
+       
 
     /*
     // MARK: - Navigation
@@ -26,4 +22,5 @@ class BasicCSVocabViewController: UIViewController {
     }
     */
 
+}
 }

@@ -6,22 +6,14 @@
 //
 
 import UIKit
-import WebKit
 class LoopsViewController: UIViewController {
 
-    @IBOutlet weak var loopsWebView: WKWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        loadYoutube(videoID: "PePSkSx5r08")
         // Do any additional setup after loading the view.
     }
-    func loadYoutube(videoID:String) {
-            guard
-                let youtubeURL = URL(string: "https://www.youtube.com/embed/\(videoID)")
-                else { return }
-        loopsWebView.load( URLRequest(url: youtubeURL) )
-    }
-
+    
     /*
     // MARK: - Navigation
 

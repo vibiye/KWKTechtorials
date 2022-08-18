@@ -6,16 +6,14 @@
 //
 
 import UIKit
-import WebKit
+
 class DataTypesViewController: UIViewController {
 
-    @IBOutlet weak var dataTypesWebView: WKWebView!
+    
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let url: URL! = URL(string: "file:///Users/scholar/Downloads/Coding%20Vocab%20Sheet.pdf")
-        dataTypesWebView.load(URLRequest(url: url))
         // Do any additional setup after loading the view.
     }
     
