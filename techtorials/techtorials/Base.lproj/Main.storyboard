@@ -16,17 +16,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo 2" translatesAutoresizingMaskIntoConstraints="NO" id="r6H-3h-vM9">
-                                <rect key="frame" x="-22" y="286" width="458" height="325"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5LG-Lx-CC3">
                                 <rect key="frame" x="72" y="651" width="270" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="37"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Start!">
-                                    <color key="titleColor" red="0.4588235021" green="0.77647060160000003" blue="0.97647058959999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <segue destination="ruL-Uz-hwC" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="9tq-MQ-Y6N"/>
@@ -46,6 +42,10 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo 2" highlightedImage="Screen Shot 2022-08-15 at 1.19.01 PM" translatesAutoresizingMaskIntoConstraints="NO" id="r6H-3h-vM9">
+                                <rect key="frame" x="-34" y="286" width="458" height="325"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.015686274509803921" green="0.0" blue="0.36470588235294116" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -68,7 +68,7 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lND-bY-EjQ">
                                 <rect key="frame" x="0.0" y="209" width="414" height="611"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.50588235290000005" green="0.56862745100000001" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.93069727891156462" green="0.56862745100000001" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TECHtorial" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tia-kD-w7v">
                                 <rect key="frame" x="81" y="146" width="252" height="55"/>
@@ -112,8 +112,11 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Basic Tech">
                                     <fontDescription key="titleFontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="24"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.7843137255" green="0.80784313730000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="uTi-xR-TZO" kind="presentation" modalPresentationStyle="fullScreen" id="JpR-Gm-dis"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="isT-vj-Z3p">
                                 <rect key="frame" x="20" y="453" width="374" height="43"/>
@@ -122,8 +125,11 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Coding">
                                     <fontDescription key="titleFontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="24"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.7843137255" green="0.80784313730000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Khr-r7-c7e" kind="presentation" modalPresentationStyle="fullScreen" id="V2B-Us-naX"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yJX-BA-gDb">
                                 <rect key="frame" x="20" y="504" width="374" height="43"/>
@@ -132,7 +138,7 @@
                                 <buttonConfiguration key="configuration" style="filled" title="All Courses">
                                     <fontDescription key="titleFontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="24"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.7843137255" green="0.80784313730000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="guP-G0-BtQ" kind="presentation" modalPresentationStyle="fullScreen" id="PHU-ha-XwG"/>
@@ -150,14 +156,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f4N-fL-FDB">
-                                <rect key="frame" x="18" y="624" width="379" height="177"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">We want to help combat disparities in technological education in public schools. We will help you feel like a pro on all things tech!</string>
-                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="17"/>
-                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nTr-jf-5iZ">
@@ -219,6 +217,14 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f4N-fL-FDB">
+                                <rect key="frame" x="41" y="636" width="332" height="177"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">We want to help combat disparities in technological education in public schools. We will help you feel like a pro on all things tech!</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="5aU-QH-0Pr"/>
                         <color key="backgroundColor" red="0.015686274510000001" green="0.0" blue="0.36470588240000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -228,20 +234,20 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k3l-km-buZ" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1516" y="71"/>
+            <point key="canvasLocation" x="1515.9420289855075" y="70.982142857142847"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="F98-SS-Sar">
             <objects>
                 <viewController id="guP-G0-BtQ" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ttK-MX-9xE">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="ttK-MX-9xE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Df5-Wr-gdh">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Df5-Wr-gdh">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LgL-0I-swa">
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LgL-0I-swa">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ALL COURSES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fO6-sN-gKl">
@@ -258,7 +264,7 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="Web Browser">
                                                     <fontDescription key="titleFontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="24"/>
                                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <color key="baseBackgroundColor" red="0.7843137255" green="0.80784313730000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <segue destination="2eZ-Fi-qg6" kind="presentation" modalPresentationStyle="fullScreen" id="aSa-Al-AoB"/>
@@ -271,7 +277,7 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="Google Docs">
                                                     <fontDescription key="titleFontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="24"/>
                                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <color key="baseBackgroundColor" red="0.7843137255" green="0.80784313730000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <segue destination="npP-Qi-1wk" kind="presentation" modalPresentationStyle="fullScreen" id="6Eb-Xk-1WY"/>
@@ -284,7 +290,7 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="Google Sheets">
                                                     <fontDescription key="titleFontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="24"/>
                                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <color key="baseBackgroundColor" red="0.7843137255" green="0.80784313730000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <segue destination="Ii3-Cu-uM5" kind="presentation" modalPresentationStyle="fullScreen" id="fvj-5e-xzO"/>
@@ -297,7 +303,7 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="Google Calendar">
                                                     <fontDescription key="titleFontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="24"/>
                                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <color key="baseBackgroundColor" red="0.7843137255" green="0.80784313730000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <segue destination="pE7-Aa-qZl" kind="presentation" modalPresentationStyle="fullScreen" id="He4-mN-0Vi"/>
@@ -310,7 +316,7 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="Conditionals">
                                                     <fontDescription key="titleFontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="24"/>
                                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <color key="baseBackgroundColor" red="0.7843137255" green="0.80784313730000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <segue destination="8br-YF-Qio" kind="presentation" modalPresentationStyle="fullScreen" id="ih8-GV-We3"/>
@@ -323,7 +329,7 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="Loops">
                                                     <fontDescription key="titleFontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="24"/>
                                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <color key="baseBackgroundColor" red="0.7843137255" green="0.80784313730000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <segue destination="Nlm-Np-M6o" kind="presentation" modalPresentationStyle="fullScreen" id="Y7r-G6-GSd"/>
@@ -336,7 +342,7 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="Basic CS Vocabulary">
                                                     <fontDescription key="titleFontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="24"/>
                                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <color key="baseBackgroundColor" red="0.7843137255" green="0.80784313730000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <segue destination="udE-u0-GCJ" kind="presentation" modalPresentationStyle="fullScreen" id="FgU-Tg-Hqi"/>
@@ -349,10 +355,22 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="Data Types">
                                                     <fontDescription key="titleFontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="24"/>
                                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <color key="baseBackgroundColor" red="0.7843137255" green="0.80784313730000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <segue destination="ppL-if-LgD" kind="presentation" modalPresentationStyle="fullScreen" id="ImZ-Xg-6NT"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="94h-yX-Ktt">
+                                                <rect key="frame" x="0.0" y="0.0" width="132" height="41"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="←Home">
+                                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="23"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="ruL-Uz-hwC" kind="presentation" modalPresentationStyle="fullScreen" id="uD7-qd-WCZ"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -385,7 +403,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f88-cs-IyJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2723" y="71"/>
+            <point key="canvasLocation" x="2721.739130434783" y="70.982142857142847"/>
         </scene>
         <!--Web Browser View Controller-->
         <scene sceneID="kgY-iZ-LyM">
@@ -441,7 +459,7 @@
                                     <color key="baseForegroundColor" red="0.015686275440000001" green="0.0" blue="0.36470589040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="m4K-U6-IBu" kind="presentation" id="jwP-sI-DYH"/>
+                                    <segue destination="m4K-U6-IBu" kind="presentation" modalTransitionStyle="flipHorizontal" id="jwP-sI-DYH"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-15 at 1.19.01 PM" translatesAutoresizingMaskIntoConstraints="NO" id="rLY-wN-YUT">
@@ -502,7 +520,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ffp-Gj-ArU"/>
-                        <color key="backgroundColor" red="0.50588235290000005" green="0.56862745100000001" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.66613520410000004" green="0.56862745100000001" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <connections>
                         <outlet property="wv" destination="Ypq-di-0qV" id="KLO-9b-k0E"/>
@@ -630,7 +648,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Lvv-jv-c7A"/>
-                        <color key="backgroundColor" red="0.50588238240000005" green="0.56862747670000002" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.66613520410000004" green="0.56862745100000001" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <connections>
                         <outlet property="wv" destination="Woe-RT-Feo" id="so8-7y-NAa"/>
@@ -758,7 +776,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="mJf-lK-w4Z"/>
-                        <color key="backgroundColor" red="0.50588238240000005" green="0.56862747670000002" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.66613520410000004" green="0.56862745100000001" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <connections>
                         <outlet property="wv" destination="BF3-om-Zkl" id="ALu-ye-Emm"/>
@@ -886,7 +904,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="wMx-IF-DkR"/>
-                        <color key="backgroundColor" red="0.50588238240000005" green="0.56862747670000002" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.66613520410000004" green="0.56862745100000001" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <connections>
                         <outlet property="wv" destination="v5F-xs-qxW" id="eYg-JO-bQO"/>
@@ -937,7 +955,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="It is always preinstalled on              your computer.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q1Btn4:" destination="m4K-U6-IBu" eventType="touchUpInside" id="twe-u6-Cdq"/>
@@ -950,7 +968,7 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="Use a web browser to search for Google Chrome Installer.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <color key="baseBackgroundColor" red="0.72941178080000002" green="0.68627452850000004" blue="0.97647058959999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q1Btn3:" destination="m4K-U6-IBu" eventType="touchUpInside" id="B5L-to-lte"/>
@@ -962,7 +980,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Go to Best Buy to purchase it.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q1Btn2:" destination="m4K-U6-IBu" eventType="touchUpInside" id="Wou-i2-ITO"/>
@@ -981,7 +999,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Saving a page in your chapter                            book.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q2Btn4:" destination="m4K-U6-IBu" eventType="touchUpInside" id="fud-3d-xRM"/>
@@ -993,7 +1011,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Pinning a website to your                  desktop.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q2Btn3:" destination="m4K-U6-IBu" eventType="touchUpInside" id="AAV-wY-qmR"/>
@@ -1005,7 +1023,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Saving a website you use    often for easy access.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q2Btn2:" destination="m4K-U6-IBu" eventType="touchUpInside" id="EzT-sS-hZ2"/>
@@ -1017,7 +1035,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Saving a page in your e-book.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q2Btn1:" destination="m4K-U6-IBu" eventType="touchUpInside" id="3j8-J1-bHC"/>
@@ -1036,7 +1054,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Type the bookmark in the                 search bar.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q3Btn4:" destination="m4K-U6-IBu" eventType="touchUpInside" id="qtg-Ke-cj0"/>
@@ -1048,7 +1066,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Right click the website logo.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q3Btn3:" destination="m4K-U6-IBu" eventType="touchUpInside" id="HAA-mY-5y5"/>
@@ -1060,7 +1078,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Click enter once you type the                       URL in.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q3Btn2:" destination="m4K-U6-IBu" eventType="touchUpInside" id="zlI-RD-aw9"/>
@@ -1080,7 +1098,7 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="           You can't unless it is preinstalled on your computer.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="21"/>
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q1Btn1:" destination="m4K-U6-IBu" eventType="touchUpInside" id="vfa-eV-nuw"/>
@@ -1092,7 +1110,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Click the star to the right of              the search bar.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q3Btn1:" destination="m4K-U6-IBu" eventType="touchUpInside" id="RfA-t7-TNc"/>
@@ -1133,7 +1151,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.50588235294117645" green="0.56862745098039214" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.66613520410000004" green="0.56862745100000001" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="2000" id="EzH-Qo-eK2"/>
                                         </constraints>
@@ -1222,7 +1240,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Under the file tab.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q1Btn4:" destination="9uz-bD-KYn" eventType="touchUpInside" id="tbK-m8-2Ps"/>
@@ -1234,7 +1252,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="At the top of the document where        it says &quot;Untitled Document.&quot;">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q1Btn3:" destination="9uz-bD-KYn" eventType="touchUpInside" id="xgf-nk-3sZ"/>
@@ -1246,7 +1264,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="You can't change it.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q1Btn2:" destination="9uz-bD-KYn" eventType="touchUpInside" id="crU-Ap-7He"/>
@@ -1265,7 +1283,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Change it under the bullet and                  checklist tabs.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q2Btn4:" destination="9uz-bD-KYn" eventType="touchUpInside" id="Eij-ct-3yI"/>
@@ -1277,7 +1295,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Change it under the font tab.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q2Btn3:" destination="9uz-bD-KYn" eventType="touchUpInside" id="Hie-8W-gbS"/>
@@ -1289,7 +1307,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="You can't change it.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q2Btn2:" destination="9uz-bD-KYn" eventType="touchUpInside" id="n3G-fZ-chq"/>
@@ -1301,7 +1319,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Click on the paragraph icon in                  the tool bar.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q2Btn1:" destination="9uz-bD-KYn" eventType="touchUpInside" id="8X0-00-vjg"/>
@@ -1313,7 +1331,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Both the 2nd and 3rd options.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q3Btn4:" destination="9uz-bD-KYn" eventType="touchUpInside" id="cL0-sC-rvU"/>
@@ -1325,7 +1343,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Click the share button at the                     top right.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q3Btn3:" destination="9uz-bD-KYn" eventType="touchUpInside" id="mju-5c-juQ"/>
@@ -1337,7 +1355,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Go under file and share.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q3Btn2:" destination="9uz-bD-KYn" eventType="touchUpInside" id="biv-hG-gjF"/>
@@ -1349,7 +1367,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="You can't share them.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q3Btn1:" destination="9uz-bD-KYn" eventType="touchUpInside" id="MY6-qS-PXC"/>
@@ -1368,7 +1386,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="In the first line of the document.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="21"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q1Btn1:" destination="9uz-bD-KYn" eventType="touchUpInside" id="DKX-th-qgA"/>
@@ -1416,7 +1434,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.50588238240000005" green="0.56862747670000002" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.66613520410000004" green="0.56862745100000001" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="2000" id="5Tw-xz-GRT"/>
                                         </constraints>
@@ -1505,7 +1523,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Under the file tab.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q1Btn4:" destination="kyw-VY-e7K" eventType="touchUpInside" id="8f1-EE-j4f"/>
@@ -1517,7 +1535,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Click on the paragraph option.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q1Btn3:" destination="kyw-VY-e7K" eventType="touchUpInside" id="L1m-DZ-7EL"/>
@@ -1529,7 +1547,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="You can't.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q1Btn2:" destination="kyw-VY-e7K" eventType="touchUpInside" id="bDv-kN-cNr"/>
@@ -1548,7 +1566,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Click on the uppercase B in                the toolbar.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q1Btn4:" destination="kyw-VY-e7K" eventType="touchUpInside" id="9AB-MO-2r4"/>
@@ -1561,7 +1579,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Go to the icon with a paint bucket         in the middle of the toolbar.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="19"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q2Btn3:" destination="kyw-VY-e7K" eventType="touchUpInside" id="H6Q-4R-SYx"/>
@@ -1573,7 +1591,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Go to the icon with an &quot;A&quot; in      the middle of the toolbar.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q2Btn2:" destination="kyw-VY-e7K" eventType="touchUpInside" id="Ucx-af-hUL"/>
@@ -1585,7 +1603,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="You can't.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q2Btn1:" destination="kyw-VY-e7K" eventType="touchUpInside" id="tJp-fK-uqr"/>
@@ -1598,7 +1616,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Click on the paragraph icon in                  the toolbar.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q3Btn4:" destination="kyw-VY-e7K" eventType="touchUpInside" id="5ug-G1-x0T"/>
@@ -1610,7 +1628,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Click on the window in the                  toolbar.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="23"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q3Btn3:" destination="kyw-VY-e7K" eventType="touchUpInside" id="c7n-Jd-HF2"/>
@@ -1622,7 +1640,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="You can't.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q3Btn1:" destination="kyw-VY-e7K" eventType="touchUpInside" id="FPV-64-n5I"/>
@@ -1641,7 +1659,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Highlight the cells you want to merge and go under format and then merge.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q1B1:" destination="vib-dK-zz0" eventType="touchUpInside" id="b2O-hP-VQm"/>
@@ -1661,7 +1679,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Click the U at the tool bar.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q3Btn2:" destination="kyw-VY-e7K" eventType="touchUpInside" id="n2b-4K-Hb0"/>
@@ -1702,7 +1720,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.50588238240000005" green="0.56862747670000002" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.66613520410000004" green="0.56862745100000001" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="2000" id="IH9-Zx-Fba"/>
                                         </constraints>
@@ -1792,7 +1810,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Search &quot;Google Calendar&quot; on Google or any search engine">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q1Btn4:" destination="3JZ-4o-kGK" eventType="touchUpInside" id="8X5-NT-PWW"/>
@@ -1804,7 +1822,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Go to a tech store to purchase               the application.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q1Btn3:" destination="3JZ-4o-kGK" eventType="touchUpInside" id="N8Q-FI-YS8"/>
@@ -1816,7 +1834,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="It does not exist.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q1Btn2:" destination="3JZ-4o-kGK" eventType="touchUpInside" id="lpA-z3-Jm7"/>
@@ -1835,7 +1853,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Click the settings icon.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q2Btn4:" destination="3JZ-4o-kGK" eventType="touchUpInside" id="KP2-OZ-Trs"/>
@@ -1847,7 +1865,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Type the day you want to add the       event to into the search bar.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="19"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q2Btn3:" destination="3JZ-4o-kGK" eventType="touchUpInside" id="e0X-y9-dCi"/>
@@ -1859,7 +1877,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Click on the day you'd like to add    it to or click the create button.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q2Btn2:" destination="3JZ-4o-kGK" eventType="touchUpInside" id="wjz-UA-HnA"/>
@@ -1871,7 +1889,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="You code it in.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="25"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q2Btn1:" destination="3JZ-4o-kGK" eventType="touchUpInside" id="3E6-fw-1LK"/>
@@ -1883,7 +1901,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Type &quot;day&quot; into the search bar.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q3Btn4:" destination="3JZ-4o-kGK" eventType="touchUpInside" id="3E7-fA-BCU"/>
@@ -1895,7 +1913,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Click on a certain day.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="23"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q3Btn3:" destination="3JZ-4o-kGK" eventType="touchUpInside" id="wAn-c7-wPi"/>
@@ -1907,7 +1925,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Click the dropdown on the top           right of the website.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q3Btn1:" destination="3JZ-4o-kGK" eventType="touchUpInside" id="m5E-38-pge"/>
@@ -1926,7 +1944,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Download the software from the                        app store.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q1Btn1:" destination="3JZ-4o-kGK" eventType="touchUpInside" id="0hc-Rj-p1j"/>
@@ -1945,7 +1963,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="You can't.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="25"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="q3Btn2:" destination="3JZ-4o-kGK" eventType="touchUpInside" id="QGe-XI-7xB"/>
@@ -1986,7 +2004,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.50588238240000005" green="0.56862747670000002" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.66613520410000004" green="0.56862745100000001" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="2000" id="knQ-Hb-nyX"/>
                                         </constraints>
@@ -2065,7 +2083,7 @@
                                     <color key="baseForegroundColor" red="0.015686275440000001" green="0.0" blue="0.36470589040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="2X5-4v-kEF" kind="presentation" id="Nfx-Ib-9Kp"/>
+                                    <segue destination="O2a-90-bwR" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="flM-Dk-h0o"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-15 at 1.19.01 PM" translatesAutoresizingMaskIntoConstraints="NO" id="0gi-OR-cpH">
@@ -2119,7 +2137,7 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Quizlet on Conditionals →">
                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="19"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="url1Btn:" destination="8br-YF-Qio" eventType="touchUpInside" id="esA-l1-3GW"/>
@@ -2127,7 +2145,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Eda-ap-tEZ"/>
-                        <color key="backgroundColor" red="0.50588235290000005" green="0.56862745100000001" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.66613520410000004" green="0.56862745100000001" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <connections>
                         <outlet property="wv" destination="Vdb-E9-Ihg" id="jyB-5w-sIA"/>
@@ -2136,203 +2154,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SBF-bK-ENc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1524.6376811594205" y="-699.10714285714278"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="h93-3b-onE">
-            <objects>
-                <viewController modalPresentationStyle="fullScreen" id="2X5-4v-kEF" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="sSY-1X-Wuk">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="898"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ivy-KB-mqM">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="898"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l3K-ag-0Zy">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2004.5"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1) What does the &quot;&gt;=&quot; symbol represent?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aBR-58-2MM">
-                                                <rect key="frame" x="29" y="119" width="352" height="81"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="29"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Test your Conditionals knowledge!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IjL-qs-ZMX">
-                                                <rect key="frame" x="53" y="69" width="315" height="22"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="19"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Conditionals Quiz" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ptg-zb-ubn">
-                                                <rect key="frame" x="1" y="6" width="411" height="63"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="33"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JjZ-2o-IRg">
-                                                <rect key="frame" x="35" y="466" width="346" height="74"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Not equal to">
-                                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RZO-mZ-Oti">
-                                                <rect key="frame" x="35" y="382" width="346" height="74"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Equal to">
-                                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pay-1m-fIf">
-                                                <rect key="frame" x="35" y="298" width="346" height="74"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Less than or equal to">
-                                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2) What does the &quot;!=&quot; symbol represent?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PUB-xG-nJK">
-                                                <rect key="frame" x="35" y="559" width="346" height="81"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="29"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rvJ-38-xxS">
-                                                <rect key="frame" x="35" y="906" width="346" height="74"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Less than or equal to">
-                                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nuh-6H-Hq5">
-                                                <rect key="frame" x="33" y="822" width="348" height="74"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Greater than or equal to">
-                                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="res-ws-xd0">
-                                                <rect key="frame" x="33" y="738" width="348" height="74"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Equal to">
-                                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iJ2-vi-l7h">
-                                                <rect key="frame" x="33" y="655" width="348" height="74"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Not equal to">
-                                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3) Where can logical operators be used?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XyG-Xe-gzk">
-                                                <rect key="frame" x="35" y="999" width="346" height="81"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="26"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cgI-fd-tip">
-                                                <rect key="frame" x="31" y="1346" width="347" height="74"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="To shut your laptop down">
-                                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RLX-RB-nJN">
-                                                <rect key="frame" x="31" y="1262" width="348" height="74"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="When playing chess">
-                                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QjD-zB-FXl">
-                                                <rect key="frame" x="31" y="1178" width="347" height="74"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="In surgery">
-                                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your Score: " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ry4-jF-RWJ">
-                                                <rect key="frame" x="21" y="1446" width="367" height="81"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="27"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ACW-Ya-k7L">
-                                                <rect key="frame" x="35" y="216" width="346" height="74"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Greater than or equal to">
-                                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="21"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nao-RD-UVF">
-                                                <rect key="frame" x="31" y="1093" width="348" height="74"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="In if-statements">
-                                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                        </subviews>
-                                        <color key="backgroundColor" red="0.50588238240000005" green="0.56862747670000002" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="2000" id="YY6-7U-KXg"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="l3K-ag-0Zy" secondAttribute="trailing" id="36s-EX-jEK"/>
-                                    <constraint firstItem="l3K-ag-0Zy" firstAttribute="top" secondItem="ivy-KB-mqM" secondAttribute="top" id="eOO-AN-lz1"/>
-                                    <constraint firstAttribute="bottom" secondItem="l3K-ag-0Zy" secondAttribute="bottom" id="g4R-wX-Gzh"/>
-                                    <constraint firstItem="l3K-ag-0Zy" firstAttribute="leading" secondItem="ivy-KB-mqM" secondAttribute="leading" id="kDo-fa-AC8"/>
-                                </constraints>
-                            </scrollView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="A7i-Z9-bfD"/>
-                        <color key="backgroundColor" red="0.50588238240000005" green="0.56862747670000002" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <constraints>
-                            <constraint firstItem="ivy-KB-mqM" firstAttribute="top" secondItem="sSY-1X-Wuk" secondAttribute="top" id="0Mk-mg-aQS"/>
-                            <constraint firstItem="ivy-KB-mqM" firstAttribute="trailing" secondItem="A7i-Z9-bfD" secondAttribute="trailing" id="IbP-PK-l6r"/>
-                            <constraint firstAttribute="bottom" secondItem="ivy-KB-mqM" secondAttribute="bottom" id="aGB-Dh-FXi"/>
-                            <constraint firstItem="ivy-KB-mqM" firstAttribute="leading" secondItem="A7i-Z9-bfD" secondAttribute="leading" id="cUP-ep-ika"/>
-                            <constraint firstItem="l3K-ag-0Zy" firstAttribute="width" secondItem="sSY-1X-Wuk" secondAttribute="width" id="nAB-La-vV4"/>
-                            <constraint firstItem="l3K-ag-0Zy" firstAttribute="height" secondItem="sSY-1X-Wuk" secondAttribute="height" multiplier="2.23214" id="pBL-JH-ZdD"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="PiA-C2-6aD"/>
-                    <size key="freeformSize" width="414" height="898"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Lbe-fu-nUN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1524.6376811594205" y="-1380.1339285714284"/>
         </scene>
         <!--Loops View Controller-->
         <scene sceneID="rUo-Pi-yKf">
@@ -2372,7 +2193,7 @@
                                     <color key="baseForegroundColor" red="0.015686275440000001" green="0.0" blue="0.36470589040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="Ivb-0z-V86" kind="presentation" id="2B9-FX-sYF"/>
+                                    <segue destination="Ivb-0z-V86" kind="presentation" modalTransitionStyle="flipHorizontal" id="2B9-FX-sYF"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-15 at 1.19.01 PM" translatesAutoresizingMaskIntoConstraints="NO" id="ONo-mX-ftw">
@@ -2419,7 +2240,7 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Quizlet on Loops →">
                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="19"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="url1Btn:" destination="Nlm-Np-M6o" eventType="touchUpInside" id="weP-xy-2cC"/>
@@ -2427,7 +2248,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="BM7-1E-o8D"/>
-                        <color key="backgroundColor" red="0.50588235290000005" green="0.56862745100000001" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.66613520410000004" green="0.56862745100000001" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <connections>
                         <outlet property="wv" destination="y0q-Lh-7SQ" id="CMG-OD-smI"/>
@@ -2437,10 +2258,10 @@
             </objects>
             <point key="canvasLocation" x="2362.3188405797105" y="-699.10714285714278"/>
         </scene>
-        <!--View Controller-->
+        <!--Conditionals Quiz View Controller-->
         <scene sceneID="iCb-kf-ohL">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="O2a-90-bwR" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="O2a-90-bwR" customClass="ConditionalsQuizViewController" customModule="techtorials" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Oaw-Br-Ceq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="898"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2478,8 +2299,11 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Not equal to">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q1Btn4:" destination="O2a-90-bwR" eventType="touchUpInside" id="Xlh-KV-YeK"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ojx-YB-ybY">
                                                 <rect key="frame" x="35" y="382" width="346" height="74"/>
@@ -2487,8 +2311,11 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Equal to">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q1Btn3:" destination="O2a-90-bwR" eventType="touchUpInside" id="E03-Ya-w0e"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nhw-BA-Fhk">
                                                 <rect key="frame" x="35" y="298" width="346" height="74"/>
@@ -2496,8 +2323,11 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Less than or equal to">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q1Btn2:" destination="O2a-90-bwR" eventType="touchUpInside" id="X6A-JO-74T"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2) What does the &quot;!=&quot; symbol represent?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dib-RH-s50">
                                                 <rect key="frame" x="35" y="559" width="346" height="81"/>
@@ -2512,8 +2342,11 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Less than or equal to">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q2Btn4:" destination="O2a-90-bwR" eventType="touchUpInside" id="1DQ-oW-MpP"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="meJ-xp-ck8">
                                                 <rect key="frame" x="33" y="822" width="348" height="74"/>
@@ -2521,8 +2354,11 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Greater than or equal to">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q2Btn3:" destination="O2a-90-bwR" eventType="touchUpInside" id="IvQ-t8-UZB"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GT0-vh-m4d">
                                                 <rect key="frame" x="33" y="738" width="348" height="74"/>
@@ -2530,8 +2366,11 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Equal to">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q2Btn2:" destination="O2a-90-bwR" eventType="touchUpInside" id="V50-fW-Jod"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2PH-r6-Qcw">
                                                 <rect key="frame" x="33" y="655" width="348" height="74"/>
@@ -2539,8 +2378,11 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Not equal to">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q2Btn1:" destination="O2a-90-bwR" eventType="touchUpInside" id="HhW-nf-5D9"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3) Where can logical operators be used?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aew-Nl-Q2d">
                                                 <rect key="frame" x="35" y="999" width="346" height="81"/>
@@ -2555,8 +2397,11 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="To shut your laptop down">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q3Btn4:" destination="O2a-90-bwR" eventType="touchUpInside" id="eam-ML-djx"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nSc-Ah-Hm6">
                                                 <rect key="frame" x="31" y="1262" width="348" height="74"/>
@@ -2564,8 +2409,11 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="When playing chess">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q3Btn3:" destination="O2a-90-bwR" eventType="touchUpInside" id="FJa-JF-Ruy"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xrY-R4-ZfT">
                                                 <rect key="frame" x="31" y="1178" width="347" height="74"/>
@@ -2573,8 +2421,11 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="In surgery">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q3Btn2:" destination="O2a-90-bwR" eventType="touchUpInside" id="wJJ-r6-Jx2"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your Score: " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ldg-7C-Jj4">
                                                 <rect key="frame" x="21" y="1446" width="367" height="81"/>
@@ -2589,8 +2440,11 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Greater than or equal to">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="21"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q1Btn1:" destination="O2a-90-bwR" eventType="touchUpInside" id="ed4-ZV-4zl"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6gp-Gv-vCv">
                                                 <rect key="frame" x="31" y="1093" width="348" height="74"/>
@@ -2598,11 +2452,49 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="In if-statements">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q2Btn4:" destination="O2a-90-bwR" eventType="touchUpInside" id="JeG-qj-H4r"/>
+                                                    <action selector="q3Btn1:" destination="O2a-90-bwR" eventType="touchUpInside" id="QxC-py-ENO"/>
+                                                </connections>
                                             </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Num" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2eU-Hb-IqC">
+                                                <rect key="frame" x="180" y="1564" width="55" height="28"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="24"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Message" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="phA-BD-zqN">
+                                                <rect key="frame" x="26" y="1614" width="365" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-15 at 1.19.01 PM" translatesAutoresizingMaskIntoConstraints="NO" id="GMK-dU-jMx">
+                                                <rect key="frame" x="124" y="1719" width="172" height="180"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jbK-EI-quX">
+                                                <rect key="frame" x="124" y="1719" width="172" height="180"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain"/>
+                                                <connections>
+                                                    <segue destination="ruL-Uz-hwC" kind="presentation" modalPresentationStyle="fullScreen" id="llg-5m-7pS"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Home↓" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ypa-ZE-zrI">
+                                                <rect key="frame" x="124" y="1681" width="172" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="44"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.50588238240000005" green="0.56862747670000002" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.66613520410000004" green="0.56862745100000001" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="2000" id="rg0-M1-1PC"/>
                                         </constraints>
@@ -2629,15 +2521,31 @@
                     </view>
                     <navigationItem key="navigationItem" id="IdW-3J-p4H"/>
                     <size key="freeformSize" width="414" height="898"/>
+                    <connections>
+                        <outlet property="messageTxt" destination="phA-BD-zqN" id="MZI-ta-o7z"/>
+                        <outlet property="q1B1" destination="Vhw-j0-h85" id="ZhZ-VL-eRs"/>
+                        <outlet property="q1B2" destination="nhw-BA-Fhk" id="a6v-Yd-eGg"/>
+                        <outlet property="q1B3" destination="ojx-YB-ybY" id="XWV-8w-c1d"/>
+                        <outlet property="q1B4" destination="cfN-Bi-fm7" id="Bto-5O-GhD"/>
+                        <outlet property="q2B1" destination="2PH-r6-Qcw" id="G7M-24-3MD"/>
+                        <outlet property="q2B2" destination="GT0-vh-m4d" id="giP-iE-81w"/>
+                        <outlet property="q2B3" destination="meJ-xp-ck8" id="4Bw-cW-QBm"/>
+                        <outlet property="q2B4" destination="lKT-pM-Guw" id="Rw8-pu-oSh"/>
+                        <outlet property="q3B1" destination="6gp-Gv-vCv" id="9Aa-U0-0dd"/>
+                        <outlet property="q3B2" destination="xrY-R4-ZfT" id="2Bs-PF-zbh"/>
+                        <outlet property="q3B3" destination="nSc-Ah-Hm6" id="YJh-UU-30g"/>
+                        <outlet property="q3B4" destination="Vxg-5O-SDO" id="T3U-Gs-yfg"/>
+                        <outlet property="scoreNumTxt" destination="2eU-Hb-IqC" id="kX8-U2-eG7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="35D-Z3-q9M" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1524.6376811594205" y="-1380.1339285714284"/>
         </scene>
-        <!--View Controller-->
+        <!--Loops Quiz View Controller-->
         <scene sceneID="XWR-zT-qpL">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="Ivb-0z-V86" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="Ivb-0z-V86" customClass="LoopsQuizViewController" customModule="techtorials" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3m5-cp-6Y5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="898"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2675,8 +2583,11 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Hula hoop">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q1Btn4:" destination="Ivb-0z-V86" eventType="touchUpInside" id="a6x-aR-gao"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cw0-bN-ORc">
                                                 <rect key="frame" x="35" y="382" width="346" height="74"/>
@@ -2684,8 +2595,11 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Loop de loop">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q1Btn3:" destination="Ivb-0z-V86" eventType="touchUpInside" id="Kgn-VF-APq"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qEw-pD-drD">
                                                 <rect key="frame" x="35" y="298" width="346" height="74"/>
@@ -2693,8 +2607,11 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="While loop">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q1Btn2:" destination="Ivb-0z-V86" eventType="touchUpInside" id="WMF-E4-xuU"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2) When does a for loop stop?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kBT-AJ-AvE">
                                                 <rect key="frame" x="35" y="559" width="346" height="81"/>
@@ -2709,8 +2626,11 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="When the specified number of             iterations is met.">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q2Btn4:" destination="Ivb-0z-V86" eventType="touchUpInside" id="jOO-vq-nfq"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2NL-AR-hXU">
                                                 <rect key="frame" x="33" y="822" width="348" height="74"/>
@@ -2718,8 +2638,11 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="When a conditional is met">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q2Btn3:" destination="Ivb-0z-V86" eventType="touchUpInside" id="DFG-SA-Kt5"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ba4-dO-QkM">
                                                 <rect key="frame" x="33" y="738" width="348" height="74"/>
@@ -2727,8 +2650,11 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Never">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q2Btn2:" destination="Ivb-0z-V86" eventType="touchUpInside" id="aZF-0P-zgC"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f7e-TZ-uRr">
                                                 <rect key="frame" x="33" y="655" width="348" height="74"/>
@@ -2736,8 +2662,11 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="When you write stop">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q2Btn1:" destination="Ivb-0z-V86" eventType="touchUpInside" id="QFK-No-faI"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jaD-Hh-avV">
                                                 <rect key="frame" x="35" y="216" width="346" height="74"/>
@@ -2745,8 +2674,11 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="For loop">
                                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="21"/>
-                                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q1Btn1:" destination="Ivb-0z-V86" eventType="touchUpInside" id="Bwf-5d-j89"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your Score: " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xeF-eL-gWG">
                                                 <rect key="frame" x="24" y="1014" width="367" height="81"/>
@@ -2755,8 +2687,42 @@
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Num" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dyV-ne-bwL">
+                                                <rect key="frame" x="180" y="1132" width="55" height="28"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="24"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Message" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vir-jQ-hTN">
+                                                <rect key="frame" x="26" y="1182" width="365" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-15 at 1.19.01 PM" translatesAutoresizingMaskIntoConstraints="NO" id="pmz-Pn-JKN">
+                                                <rect key="frame" x="124" y="1399" width="172" height="180"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SLE-n1-FZ8">
+                                                <rect key="frame" x="124" y="1399" width="172" height="180"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain"/>
+                                                <connections>
+                                                    <segue destination="ruL-Uz-hwC" kind="presentation" modalPresentationStyle="fullScreen" id="m7Y-FM-YWt"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Home↓" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UfR-m4-9ML">
+                                                <rect key="frame" x="121" y="1361" width="172" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="44"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.50588238240000005" green="0.56862747670000002" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.66613520410000004" green="0.56862745100000001" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="2000" id="OHK-pV-BWt"/>
                                         </constraints>
@@ -2783,10 +2749,22 @@
                     </view>
                     <navigationItem key="navigationItem" id="psG-uS-89u"/>
                     <size key="freeformSize" width="414" height="898"/>
+                    <connections>
+                        <outlet property="messageTxt" destination="Vir-jQ-hTN" id="bdg-yh-5dd"/>
+                        <outlet property="q1B1" destination="jaD-Hh-avV" id="J2V-Ut-3r0"/>
+                        <outlet property="q1B2" destination="qEw-pD-drD" id="FOZ-pZ-uBu"/>
+                        <outlet property="q1B3" destination="cw0-bN-ORc" id="fqH-Vg-oYb"/>
+                        <outlet property="q1B4" destination="me6-Gs-emu" id="a67-88-1c3"/>
+                        <outlet property="q2B1" destination="f7e-TZ-uRr" id="TPV-KX-sOw"/>
+                        <outlet property="q2B2" destination="ba4-dO-QkM" id="4gt-xb-Fgs"/>
+                        <outlet property="q2B3" destination="2NL-AR-hXU" id="B4o-1w-GZX"/>
+                        <outlet property="q2B4" destination="EfY-I2-ph7" id="lxG-ii-QuU"/>
+                        <outlet property="scoreNumTxt" destination="dyV-ne-bwL" id="Bhb-Mi-Yle"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4oQ-DM-GsK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2360.8695652173915" y="-1392.1875"/>
+            <point key="canvasLocation" x="2438" y="-1380"/>
         </scene>
         <!--BasicCS Vocabulary View Controller-->
         <scene sceneID="0ox-9R-1Ee">
@@ -2852,7 +2830,7 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Quizlet on Vocab →">
                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="19"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="url1Btn:" destination="Nlm-Np-M6o" eventType="touchUpInside" id="Xrf-4X-iNl"/>
@@ -2870,7 +2848,7 @@
                             </wkWebView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="3UE-qi-nNO"/>
-                        <color key="backgroundColor" red="0.50588238240000005" green="0.56862747670000002" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.66613520410000004" green="0.56862745100000001" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <connections>
                         <outlet property="wv" destination="RYk-39-CUh" id="S6C-23-VnW"/>
@@ -2944,7 +2922,7 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Quizlet on Data Types →">
                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="19"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.73007308189999998" green="0.68907445879999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="url1Btn:" destination="ppL-if-LgD" eventType="touchUpInside" id="CU4-0x-kOD"/>
@@ -2962,7 +2940,7 @@
                             </wkWebView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="igA-QZ-Ee8"/>
-                        <color key="backgroundColor" red="0.50588238240000005" green="0.56862747670000002" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.66613520410000004" green="0.56862745100000001" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <connections>
                         <outlet property="wv" destination="p3q-pu-OVh" id="WPQ-8o-Qfa"/>
@@ -2972,8 +2950,251 @@
             </objects>
             <point key="canvasLocation" x="3845" y="-699"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="6qC-et-3Yh">
+            <objects>
+                <viewController id="uTi-xR-TZO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="rxM-Bm-RTI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ura-E8-IwC">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o6V-7S-icB">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BASIC TECH" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fOA-xZ-0N6">
+                                                <rect key="frame" x="109" y="52" width="175" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="29"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i6L-03-qG5">
+                                                <rect key="frame" x="20" y="93" width="374" height="43"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Web Browser">
+                                                    <fontDescription key="titleFontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="24"/>
+                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="2eZ-Fi-qg6" kind="presentation" modalPresentationStyle="fullScreen" id="CFc-Iy-Ec0"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rRJ-5c-Atu">
+                                                <rect key="frame" x="20" y="144" width="374" height="43"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Google Docs">
+                                                    <fontDescription key="titleFontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="24"/>
+                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="npP-Qi-1wk" kind="presentation" modalPresentationStyle="fullScreen" id="xWv-3P-t9e"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="62H-xL-Ffg">
+                                                <rect key="frame" x="20" y="195" width="374" height="43"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Google Sheets">
+                                                    <fontDescription key="titleFontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="24"/>
+                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="Ii3-Cu-uM5" kind="presentation" modalPresentationStyle="fullScreen" id="rOn-DX-ig5"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mhc-Za-80O">
+                                                <rect key="frame" x="20" y="246" width="374" height="43"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Google Calendar">
+                                                    <fontDescription key="titleFontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="24"/>
+                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="pE7-Aa-qZl" kind="presentation" modalPresentationStyle="fullScreen" id="eDH-oY-kKb"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YqQ-QK-gQy">
+                                                <rect key="frame" x="0.0" y="3" width="132" height="41"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="←Home">
+                                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="23"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="ruL-Uz-hwC" kind="presentation" modalPresentationStyle="fullScreen" id="orw-0J-bAY"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.015686275440000001" green="0.0" blue="0.36470589040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1500" id="pja-Zk-AZJ" userLabel="height = 3000"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="o6V-7S-icB" firstAttribute="leading" secondItem="Ura-E8-IwC" secondAttribute="leading" id="9di-An-mHX"/>
+                                    <constraint firstAttribute="bottom" secondItem="o6V-7S-icB" secondAttribute="bottom" id="LtS-Dh-lKK"/>
+                                    <constraint firstAttribute="trailing" secondItem="o6V-7S-icB" secondAttribute="trailing" id="NLj-3T-Z4d"/>
+                                    <constraint firstItem="o6V-7S-icB" firstAttribute="top" secondItem="Ura-E8-IwC" secondAttribute="top" id="koV-dd-osD"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="9vZ-Rw-EAa"/>
+                        <color key="backgroundColor" red="0.015686275440000001" green="0.0" blue="0.36470589040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="Ura-E8-IwC" firstAttribute="trailing" secondItem="9vZ-Rw-EAa" secondAttribute="trailing" id="0IK-mg-1aM"/>
+                            <constraint firstItem="Ura-E8-IwC" firstAttribute="leading" secondItem="9vZ-Rw-EAa" secondAttribute="leading" id="RMY-cB-OYd"/>
+                            <constraint firstItem="o6V-7S-icB" firstAttribute="width" secondItem="rxM-Bm-RTI" secondAttribute="width" id="izS-Sn-gWP"/>
+                            <constraint firstItem="o6V-7S-icB" firstAttribute="height" secondItem="rxM-Bm-RTI" secondAttribute="height" multiplier="1.67411" id="ojx-3L-8ru"/>
+                            <constraint firstItem="Ura-E8-IwC" firstAttribute="top" secondItem="rxM-Bm-RTI" secondAttribute="top" id="sF4-y1-G7b"/>
+                            <constraint firstAttribute="bottom" secondItem="Ura-E8-IwC" secondAttribute="bottom" id="u1u-Jf-cY0"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="414" height="896"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Ip-fZ-zfV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3536" y="70"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="TZW-hN-Ygh">
+            <objects>
+                <viewController id="Khr-r7-c7e" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="BcD-zz-Jy7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kp7-h7-gF8">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B2y-lz-oFZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CODING" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eSY-AJ-WzB">
+                                                <rect key="frame" x="155" y="52" width="105" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="29"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2sA-Sg-YFe">
+                                                <rect key="frame" x="20" y="93" width="374" height="43"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Conditionals">
+                                                    <fontDescription key="titleFontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="24"/>
+                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="8br-YF-Qio" kind="presentation" modalPresentationStyle="fullScreen" id="Jos-Si-ZeL"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="moN-FH-Xy7">
+                                                <rect key="frame" x="20" y="144" width="374" height="43"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Loops">
+                                                    <fontDescription key="titleFontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="24"/>
+                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="Nlm-Np-M6o" kind="presentation" modalPresentationStyle="fullScreen" id="reD-zz-maB"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qeT-Zo-ysg">
+                                                <rect key="frame" x="20" y="195" width="374" height="43"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Basic CS Vocabulary">
+                                                    <fontDescription key="titleFontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="24"/>
+                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="udE-u0-GCJ" kind="presentation" modalPresentationStyle="fullScreen" id="sBN-Qa-LCH"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Thy-RM-dG2">
+                                                <rect key="frame" x="20" y="246" width="374" height="43"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Data Types">
+                                                    <fontDescription key="titleFontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="24"/>
+                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="baseBackgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="ppL-if-LgD" kind="presentation" modalPresentationStyle="fullScreen" id="fXa-bR-G7L"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hay-jj-F9e">
+                                                <rect key="frame" x="8" y="0.0" width="132" height="41"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="←Home">
+                                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="23"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="ruL-Uz-hwC" kind="presentation" modalPresentationStyle="fullScreen" id="LEc-ql-kBT"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.015686275440000001" green="0.0" blue="0.36470589040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1500" id="BZD-iL-JVt" userLabel="height = 3000"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="B2y-lz-oFZ" secondAttribute="trailing" id="1vA-1G-b5k"/>
+                                    <constraint firstItem="B2y-lz-oFZ" firstAttribute="leading" secondItem="Kp7-h7-gF8" secondAttribute="leading" id="cKt-BL-xgC"/>
+                                    <constraint firstAttribute="bottom" secondItem="B2y-lz-oFZ" secondAttribute="bottom" id="dro-04-aEv"/>
+                                    <constraint firstItem="B2y-lz-oFZ" firstAttribute="top" secondItem="Kp7-h7-gF8" secondAttribute="top" id="vKv-4J-Xfh"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="uDJ-BE-b77"/>
+                        <color key="backgroundColor" red="0.015686275440000001" green="0.0" blue="0.36470589040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="B2y-lz-oFZ" firstAttribute="height" secondItem="BcD-zz-Jy7" secondAttribute="height" multiplier="1.67411" id="27o-XK-wsy"/>
+                            <constraint firstItem="Kp7-h7-gF8" firstAttribute="top" secondItem="BcD-zz-Jy7" secondAttribute="top" id="Dza-Ls-JZm"/>
+                            <constraint firstItem="Kp7-h7-gF8" firstAttribute="trailing" secondItem="uDJ-BE-b77" secondAttribute="trailing" id="X5T-lj-Bs4"/>
+                            <constraint firstAttribute="bottom" secondItem="Kp7-h7-gF8" secondAttribute="bottom" id="bid-jZ-eUN"/>
+                            <constraint firstItem="B2y-lz-oFZ" firstAttribute="width" secondItem="BcD-zz-Jy7" secondAttribute="width" id="fQ5-Nu-zKk"/>
+                            <constraint firstItem="Kp7-h7-gF8" firstAttribute="leading" secondItem="uDJ-BE-b77" secondAttribute="leading" id="yw4-L3-jDF"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="414" height="896"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5U8-Dr-5mb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4262" y="70"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="V2B-Us-naX"/>
+        <segue reference="fXa-bR-G7L"/>
+        <segue reference="sBN-Qa-LCH"/>
+        <segue reference="reD-zz-maB"/>
+        <segue reference="Jos-Si-ZeL"/>
+        <segue reference="eDH-oY-kKb"/>
+        <segue reference="rOn-DX-ig5"/>
+        <segue reference="xWv-3P-t9e"/>
+        <segue reference="CFc-Iy-Ec0"/>
         <segue reference="MXc-gZ-RWp"/>
     </inferredMetricsTieBreakers>
     <resources>

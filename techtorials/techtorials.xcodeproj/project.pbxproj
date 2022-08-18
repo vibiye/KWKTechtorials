@@ -26,6 +26,8 @@
 		BD8F9C5F28AE8A520004AEEA /* LoopsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8F9C5E28AE8A520004AEEA /* LoopsViewController.swift */; };
 		BD8F9C6128AE8B940004AEEA /* BasicCSVocabularyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8F9C6028AE8B940004AEEA /* BasicCSVocabularyViewController.swift */; };
 		BD8F9C6328AE8DDA0004AEEA /* DataTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8F9C6228AE8DDA0004AEEA /* DataTypesViewController.swift */; };
+		BD8F9C6528AE8FEB0004AEEA /* ConditionalsQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8F9C6428AE8FEB0004AEEA /* ConditionalsQuizViewController.swift */; };
+		BD8F9C6928AE94120004AEEA /* LoopsQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8F9C6828AE94120004AEEA /* LoopsQuizViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		BD8F9C5E28AE8A520004AEEA /* LoopsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopsViewController.swift; sourceTree = "<group>"; };
 		BD8F9C6028AE8B940004AEEA /* BasicCSVocabularyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicCSVocabularyViewController.swift; sourceTree = "<group>"; };
 		BD8F9C6228AE8DDA0004AEEA /* DataTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTypesViewController.swift; sourceTree = "<group>"; };
+		BD8F9C6428AE8FEB0004AEEA /* ConditionalsQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalsQuizViewController.swift; sourceTree = "<group>"; };
+		BD8F9C6828AE94120004AEEA /* LoopsQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopsQuizViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				BD6A900128AE870300F0497F /* WebBrowserQuizViewController.swift */,
 				BD8F9C6228AE8DDA0004AEEA /* DataTypesViewController.swift */,
 				BD8F9C6028AE8B940004AEEA /* BasicCSVocabularyViewController.swift */,
+				BD8F9C6428AE8FEB0004AEEA /* ConditionalsQuizViewController.swift */,
+				BD8F9C6828AE94120004AEEA /* LoopsQuizViewController.swift */,
 				BD34078B28AAADFF00540F85 /* Assets.xcassets */,
 				BD34078D28AAADFF00540F85 /* LaunchScreen.storyboard */,
 				BD34079028AAADFF00540F85 /* Info.plist */,
@@ -178,10 +184,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD34078428AAADFE00540F85 /* ViewController.swift in Sources */,
+				BD8F9C6928AE94120004AEEA /* LoopsQuizViewController.swift in Sources */,
 				BD5EE76728AC144B00CF8A8E /* GoogleSheetsViewController.swift in Sources */,
 				BD8F9C6128AE8B940004AEEA /* BasicCSVocabularyViewController.swift in Sources */,
 				BD34078028AAADFE00540F85 /* AppDelegate.swift in Sources */,
 				BD7FE8BD28AE750A00208C6D /* GoogleCalenderQuizViewController.swift in Sources */,
+				BD8F9C6528AE8FEB0004AEEA /* ConditionalsQuizViewController.swift in Sources */,
 				BD34078A28AAADFE00540F85 /* techtorials.xcdatamodeld in Sources */,
 				BD8F9C6328AE8DDA0004AEEA /* DataTypesViewController.swift in Sources */,
 				BD34078228AAADFE00540F85 /* SceneDelegate.swift in Sources */,
